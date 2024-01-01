@@ -6,11 +6,10 @@
     list-style: none;
  font-family: 'Plus Jakarta Sans', sans-serif;
 }
-img {
-    width: 100%;
-}
+
+
 header {
-    height:79px;
+    /* height:79px; */
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -102,3 +101,4 @@ header .header-right .hamburger div {
         display: none;
     }
 }
+
