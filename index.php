@@ -17,40 +17,40 @@
         href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@500&family=Plus+Jakarta+Sans:wght@500&family=Raleway:wght@700&display=swap"
         rel="stylesheet">
     <style>
-        #parent {
-            position: relative;
-            right: 125px;
-        }
+    #parent {
+        position: relative;
+        right: 125px;
+    }
 
-        #child {
-            position: absolute;
-            margin-top: 95px;
-            right: 20px;
-        }
+    #child {
+        position: absolute;
+        margin-top: 95px;
+        right: 20px;
+    }
 
-        #parent1 {
-            position: relative;
-            left: 155px;
-            bottom: 40px;
+    #parent1 {
+        position: relative;
+        left: 155px;
+        bottom: 40px;
 
-        }
+    }
 
-        #child1 {
-            position: absolute;
-        }
+    #child1 {
+        position: absolute;
+    }
 
-        #parent2 {
-            position: relative;
-            left: 145px;
-            bottom: 100px;
+    #parent2 {
+        position: relative;
+        left: 145px;
+        bottom: 100px;
 
-        }
+    }
 
-        #child2 {
-            position: absolute;
-            bottom: -25px;
+    #child2 {
+        position: absolute;
+        bottom: -25px;
 
-        }
+    }
     </style>
 </head>
 
@@ -311,6 +311,7 @@
 
         </div>
     </div>
+
     <div class="grid gap-[30px]">
 
 
@@ -382,37 +383,86 @@
         </div>
     </div>
 
+    <div class="h-[838px] bg-[#1B1B1B] ">
+        <div class="grid grid-cols-2">
+            <div class="flex flex-col">
+                <div class="flex flex-row ">
+                    <div>
+                        <img class="h-[380px] w-[272px]" src="images/gsh1.jpeg" alt="homepageimage">
+                    </div>
+                    <div>
+                        <img class="h-[272px]  w-[272px]" src="images/gsh2.jpeg" alt="homepageimage">
+                    </div>
+                </div>
+                <div class="flex flex-row ">
+                    <div>
+                        <img class="h-[340px] w-[272px]" src="images/gsh3.jpeg" alt="homepageimage">
+                    </div>
+                    <div>
+                        <img class="h-[340px] w-[272px]" src="images/gsh4.jpeg" alt="homepageimage">
+                    </div>
+                </div>
+                <div class="flex flex-row">
+                    <div>
+                        <img class="h-[340px] w-[272px]" src="images/gsh5.jpeg" alt="homepageimage">
+                    </div>
+                    <div>
+                        <img class="h-[340px] w-[272px]" src="images/gsh6.jpeg" alt="homepageimage">
+                    </div>
+                </div>
+
+
+            </div>
+            2nd col
+            <div>
+
+            </div>
+
+
+
+
+
+
+
+
+        </div>
+
+
+    </div>
+
+    </div>
+
 
     <script>
-        document.addEventListener('DOMContentLoaded', function () {
-            const toggleButton = document.getElementById('toggleButton');
-            const icon = document.getElementById('icon');
-            let isToggled = false;
+    document.addEventListener('DOMContentLoaded', function() {
+        const toggleButton = document.getElementById('toggleButton');
+        const icon = document.getElementById('icon');
+        let isToggled = false;
 
-            toggleButton.addEventListener('click', function () {
-                isToggled = !isToggled;
-                updateIcon();
-            });
-
-            function updateIcon() {
-                if (isToggled) {
-                    // Change the SVG path or attributes for the "on" state
-                    icon.innerHTML =
-                        '<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"> <path d="M18 6L6 18" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/> <path d="M6 6L18 18" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/> </svg>';
-                } else {
-                    // Change the SVG path or attributes for the "off" state
-
-                    icon.innerHTML =
-                        '<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"> <path d="M3 11H21" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/> <path d="M3 5.375H21" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/> <path d="M3 16.625H21" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/> </svg>';
-                }
-            }
+        toggleButton.addEventListener('click', function() {
+            isToggled = !isToggled;
+            updateIcon();
         });
 
-        hamburger = document.querySelector(".hamburger");
-        nav = document.querySelector("nav");
-        hamburger.onclick = function () {
-            nav.classList.toggle("active");
+        function updateIcon() {
+            if (isToggled) {
+                // Change the SVG path or attributes for the "on" state
+                icon.innerHTML =
+                    '<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"> <path d="M18 6L6 18" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/> <path d="M6 6L18 18" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/> </svg>';
+            } else {
+                // Change the SVG path or attributes for the "off" state
+
+                icon.innerHTML =
+                    '<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"> <path d="M3 11H21" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/> <path d="M3 5.375H21" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/> <path d="M3 16.625H21" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/> </svg>';
+            }
         }
+    });
+
+    hamburger = document.querySelector(".hamburger");
+    nav = document.querySelector("nav");
+    hamburger.onclick = function() {
+        nav.classList.toggle("active");
+    }
     </script>
 </body>
 
