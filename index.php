@@ -17,52 +17,52 @@
         href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@500&family=Plus+Jakarta+Sans:wght@500&family=Raleway:wght@700&display=swap"
         rel="stylesheet">
     <style>
-    #parent {
-        position: relative;
-        right: 125px;
-    }
+        #parent {
+            position: relative;
+            right: 125px;
+        }
 
-    #child {
-        position: absolute;
-        margin-top: 95px;
-        right: 20px;
-    }
+        #child {
+            position: absolute;
+            margin-top: 95px;
+            right: 20px;
+        }
 
-    #parent1 {
-        position: relative;
-        left: 155px;
-        bottom: 40px;
+        #parent1 {
+            position: relative;
+            left: 155px;
+            bottom: 40px;
 
-    }
+        }
 
-    #child1 {
-        position: absolute;
-    }
+        #child1 {
+            position: absolute;
+        }
 
-    #parent2 {
-        position: relative;
-        left: 145px;
-        bottom: 100px;
+        #parent2 {
+            position: relative;
+            left: 145px;
+            bottom: 100px;
 
-    }
+        }
 
-    #child2 {
-        position: absolute;
-        bottom: -25px;
+        #child2 {
+            position: absolute;
+            bottom: -25px;
 
-    }
+        }
 
-    .why {
+        .why {
 
-        font-size: 40px;
-        font-style: normal;
-        font-weight: 600;
-        line-height: normal;
-        background: var(--linear-green, linear-gradient(92deg, #5EBE90 0.72%, #92C10B 99.28%));
-        background-clip: text;
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
-    }
+            font-size: 40px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: normal;
+            background: var(--linear-green, linear-gradient(92deg, #5EBE90 0.72%, #92C10B 99.28%));
+            background-clip: text;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
     </style>
 </head>
 
@@ -626,23 +626,37 @@
     </div>
     <!-- services section end  -->
     <div class="grid mx-[50px] mb-[64px] ">
+        <div class="flex flex-row rounded-[20px] ">
+            <div style="flex:1">
+                <div class="text-[52px]  font-[600] text-[#090914] w-[472px] ">
+                    Our Teams
+                    <div class="text-[18px] text-[#52525B] font-[400]">
 
-        <div class="flex flex-row">
-
-            <div style="flex:1">04</div>
+                        Meet the Global Square team—a dynamic ensemble of dedicated professionals, collectively steering
+                        innovation and excellence.
+                    </div>
+                </div>
+            </div>
             <div>
                 <img class="w-[326px] h-[336px]" src="images/binay.png" alt="CEO">
             </div>
             <div>
-                <img class="w-[326px] h-[336px]" src="images/asina.png" alt="CEO">
+                <img class="w-[326px] rounded-tr-[20px] h-[336px]" src="images/asina.png" alt="QA">
             </div>
-
         </div>
 
 
-        <div class="flex flex-row">
-            <div style="flex:1">
+        <div class="flex flex-row  ">
+            <div style="flex:1 " class="text-[#74C392] flex flex-row items-end ">
+                <div class="pb-[25px] flex flex-row">
+                    See all
+                    <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" viewBox="0 0 26 26" fill="none">
+                        <path
+                            d="M10.0758 8.22692L17.5004 8.22692M17.5004 8.22692L17.5004 15.6515M17.5004 8.22692L7.9545 17.7729"
+                            stroke="#74C392" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                    </svg>
 
+                </div>
             </div>
             <div>
                 <img class="w-[326px] h-[336px]" src="images/saurab.png" alt="CEO">
@@ -652,7 +666,7 @@
                 <img class="w-[326px] h-[336px]" src="images/rabin.png" alt="CEO">
             </div>
             <div>
-                <img class="w-[326px] h-[336px]" src="images/janak.png" alt="CEO">
+                <img class="w-[326px] rounded-br-[20px] h-[336px]" src="images/janak.png" alt="CEO">
             </div>
 
         </div>
@@ -663,35 +677,35 @@
 
 
     <script>
-    document.addEventListener('DOMContentLoaded', function() {
-        const toggleButton = document.getElementById('toggleButton');
-        const icon = document.getElementById('icon');
-        let isToggled = false;
+        document.addEventListener('DOMContentLoaded', function () {
+            const toggleButton = document.getElementById('toggleButton');
+            const icon = document.getElementById('icon');
+            let isToggled = false;
 
-        toggleButton.addEventListener('click', function() {
-            isToggled = !isToggled;
-            updateIcon();
+            toggleButton.addEventListener('click', function () {
+                isToggled = !isToggled;
+                updateIcon();
+            });
+
+            function updateIcon() {
+                if (isToggled) {
+                    // Change the SVG path or attributes for the "on" state
+                    icon.innerHTML =
+                        '<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"> <path d="M18 6L6 18" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/> <path d="M6 6L18 18" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/> </svg>';
+                } else {
+                    // Change the SVG path or attributes for the "off" state
+
+                    icon.innerHTML =
+                        '<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"> <path d="M3 11H21" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/> <path d="M3 5.375H21" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/> <path d="M3 16.625H21" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/> </svg>';
+                }
+            }
         });
 
-        function updateIcon() {
-            if (isToggled) {
-                // Change the SVG path or attributes for the "on" state
-                icon.innerHTML =
-                    '<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"> <path d="M18 6L6 18" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/> <path d="M6 6L18 18" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/> </svg>';
-            } else {
-                // Change the SVG path or attributes for the "off" state
-
-                icon.innerHTML =
-                    '<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"> <path d="M3 11H21" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/> <path d="M3 5.375H21" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/> <path d="M3 16.625H21" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/> </svg>';
-            }
+        hamburger = document.querySelector(".hamburger");
+        nav = document.querySelector("nav");
+        hamburger.onclick = function () {
+            nav.classList.toggle("active");
         }
-    });
-
-    hamburger = document.querySelector(".hamburger");
-    nav = document.querySelector("nav");
-    hamburger.onclick = function() {
-        nav.classList.toggle("active");
-    }
     </script>
 </body>
 
