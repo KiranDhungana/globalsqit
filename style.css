@@ -6,17 +6,6 @@
     list-style: none;
  font-family: 'Plus Jakarta Sans', sans-serif;
 }
-.why{
-  
-font-size: 40px;
-font-style: normal;
-font-weight: 600;
-line-height: normal;
-background: var(--linear-green, linear-gradient(92deg, #5EBE90 0.72%, #92C10B 99.28%));
-background-clip: text;
--webkit-background-clip: text;
--webkit-text-fill-color: transparent;
-}
 
 
 header {
