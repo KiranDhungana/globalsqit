@@ -74,14 +74,15 @@ include('header.php')
         <div class="flex flex-row justify-between">
             <div>
                 <div class="container">
-                    <img class="w-[288px] imgss h-[336px] rounded-b-[8px] imgt" src="images/binay.png" alt="CEO">
+                    <img style="object-fit:cover" class="w-[288px]  imgss h-[336px] rounded-b-[8px] imgt"
+                        src="images/asina.png" alt="CEO">
 
                     <div class="bottom-left2 ">
                         <p class="pt-[270px] pl-[32px] text-[#FFF] font-[600] text-[18px]">
-                            Binay Rijal
+                            Ashina Thapaliya
                             <br>
                             <span class="font-[400] text-[14px]">
-                                CEO/Founder
+                                Project Manager
 
                             </span>
 
@@ -91,14 +92,14 @@ include('header.php')
             </div>
             <div>
                 <div class="container">
-                    <img class="w-[288px] imgss h-[336px] rounded-b-[8px] imgt" src="images/binay.png" alt="CEO">
+                    <img class="w-[288px] imgss h-[336px] rounded-b-[8px] imgt" src="images/saurab.png" alt="CEO">
 
                     <div class="bottom-left2 ">
                         <p class="pt-[270px] pl-[32px] text-[#FFF] font-[600] text-[18px]">
-                            Binay Rijal
+                            Saurab Singh
                             <br>
                             <span class="font-[400] text-[14px]">
-                                CEO/Founder
+                                Business Analyst
 
                             </span>
 
@@ -108,14 +109,14 @@ include('header.php')
             </div>
             <div>
                 <div class="container">
-                    <img class="w-[288px] imgss h-[336px] rounded-b-[8px] imgt" src="images/binay.png" alt="CEO">
+                    <img class="w-[288px] imgss h-[336px] rounded-b-[8px] imgt" src="images/rabin.png" alt="CEO">
 
                     <div class="bottom-left2">
                         <p class="pt-[270px] pl-[32px] text-[#FFF] font-[600] text-[18px]">
-                            Binay Rijal
+                            Rabin Raut
                             <br>
                             <span class="font-[400] text-[14px]">
-                                CEO/Founder
+                                Software Engieer
 
                             </span>
 
@@ -125,14 +126,14 @@ include('header.php')
             </div>
             <div>
                 <div class="container">
-                    <img class="w-[288px] imgss h-[336px] rounded-b-[8px] imgt" src="images/binay.png" alt="CEO">
+                    <img class="w-[288px] imgss h-[336px] rounded-b-[8px] imgt" src="images/janak.png" alt="CEO">
 
                     <div class="bottom-left2">
                         <p class="pt-[270px] pl-[32px] text-[#FFF] font-[600] text-[18px]">
-                            Binay Rijal
+                            Janak Mahato
                             <br>
                             <span class="font-[400] text-[14px]">
-                                CEO/Founder
+                                Software Engieer
 
                             </span>
 
