@@ -48,7 +48,8 @@
 
     #child2 {
         position: absolute;
-        bottom: -25px;
+        /* bottom: -25px; */
+        top: 650px;
 
     }
 
@@ -70,96 +71,13 @@
 
 
 
-    <!-- mobile view -->
-    <header class="sm:hidden pt-[10px]">
-        <div class="header-left">
-            <div class="logo font-[800px] ">
-                GLOBAL <span class="text-[#04A558]">SQUARE</span>
-            </div>
-            <nav>
-                <ul class="flex gap-[24px] flex-col leading-[24px] text-[16px] font-[300px] text-[#3D3D3D] ">
-                    <li>
-                        <a href="">Introduction</a>
-                    </li>
-                    <li>
-                        <a href=""> Why Choose us ?</a>
-                    </li>
-                    <li>
-                        <a href="">Our Services</a>
-                    </li>
-                    <li>
-                        <a href="">FAQs</a>
-                    </li>
-
-                </ul>
-
-            </nav>
-        </div>
-        <div class="header-right">
-            <div class="login-signup">
-                <a href="">Login</a> or <a href="">Signup</a>
-            </div>
-            <div class="hamburger ">
-                <div id="toggleButton" class="toggle-btn">
-                    <svg id="icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
-                        fill="none">
-                        <path d="M3 11H21" stroke="black" stroke-width="2" stroke-linecap="round"
-                            stroke-linejoin="round" />
-                        <path d="M3 5.375H21" stroke="black" stroke-width="2" stroke-linecap="round"
-                            stroke-linejoin="round" />
-                        <path d="M3 16.625H21" stroke="black" stroke-width="2" stroke-linecap="round"
-                            stroke-linejoin="round" />
-                    </svg>
-
-                </div>
-
-            </div>
-        </div>
-    </header>
-
-    <!-- pc view  -->
-    <header class="hidden sm:block pt-[10px]">
-        <div class="flex  h-[79px] flex-row justify-between items-center ">
-            <div class=" font-[800px] leading-[30px] ">
-                GLOBAL <span class="text-[#04A558]">SQUARE</span>
-            </div>
-            <div class="flex text-[12px] flex-row items-center gap-[32px] ">
-                <div>
-                    Join us ?
-                </div>
-                <div class="bg-black text-center rounded-[2px]">
-                    <p class="py-[12px] text-[18px] font-[600px] px-[24px] text-white ">
-                        Contact Us
-                    </p>
-                </div>
-            </div>
-        </div>
-
-        <div class="flex leading-[24px] text-[16px] font-[300px] text-[#3D3D3D] flex-row items-center">
-            <ul class="flex flex-row gap-[24px]">
-                <li>
-                    Introduction
-                </li>
-                <li>
-                    Why Choose us ?
-                </li>
-                <li>
-                    Our Services
-                </li>
-                <li>
-                    Our Team
-                </li>
-                <li>
-                    FAQs
-                </li>
-            </ul>
-
-        </div>
-    </header>
+    <?php
+    include('header.php');
+    ?>
 
     <div class="grid grid-cols-2 items-center mt-[72px] mx-[50px]">
         <div class="text-[40px] font-[500px] mb-[30px]">
-            Welcome to <span class="text-[#0CB061] font-[700]">Global Square IT</span> Global Square IT - Unleashing
+            Welcome to <span class="text-[#0CB061] font-[700]">Global Square IT</span>- Unleashing
             Digital
             Innovation
             <br>
@@ -702,11 +620,17 @@
                     class="rounded-[16px] w-[360px] h-[276px] bg-[#1B1B1B] my-[30px]">
                     <div class="flex flex-col mt-[24px] justify-center pl-[18px]">
                         <div>
-                            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32"
-                                fill="none">
+                            <svg width="32" height="32" viewBox="0 0 32 32" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M22.4621 18.8721V13.1285C22.4619 12.8767 22.3954 12.6294 22.2694 12.4114C22.1434 12.1934 21.9623 12.0123 21.7442 11.8864L16.7185 9.01464C16.5003 8.88861 16.2527 8.82227 16.0006 8.82227C15.7485 8.82227 15.5009 8.88861 15.2827 9.01464L10.257 11.8864C10.0389 12.0123 9.85782 12.1934 9.7318 12.4114C9.60579 12.6294 9.53932 12.8767 9.53906 13.1285V18.8721C9.53932 19.1239 9.60579 19.3712 9.7318 19.5892C9.85782 19.8072 10.0389 19.9882 10.257 20.1141L15.2827 22.9859C15.5009 23.1119 15.7485 23.1783 16.0006 23.1783C16.2527 23.1783 16.5003 23.1119 16.7185 22.9859L21.7442 20.1141C21.9623 19.9882 22.1434 19.8072 22.2694 19.5892C22.3954 19.3712 22.4619 19.1239 22.4621 18.8721Z"
+                                    stroke="#36E993" stroke-linecap="round" stroke-linejoin="round" />
+                                <path d="M9.72656 12.3828L15.9943 16.0085L22.2619 12.3828" stroke="#36E993"
+                                    stroke-linecap="round" stroke-linejoin="round" />
+                                <path d="M16 23.2369V16" stroke="#36E993" stroke-linecap="round"
+                                    stroke-linejoin="round" />
                                 <circle opacity="0.4" cx="16" cy="16" r="16" fill="#5EBE90" />
                             </svg>
-
                         </div>
                         <div class="text-[18px] text-[#FFF]">
                             Contact us today to discuss your project and discover how we can turn your vision into
@@ -769,8 +693,8 @@
     </div>
     <!-- footer  -->
     <?php
-include("./footer.php")
-?>
+    include("./footer.php")
+        ?>
     <script>
     document.addEventListener('DOMContentLoaded', function() {
         const toggleButton = document.getElementById('toggleButton');
