@@ -82,21 +82,152 @@ include('header.php')
                 <div class="buttonWrapper">
                     <button class="tab-button active"
                         style="border-top-left-radius: 5px ;border-bottom-left-radius: 5px;"
-                        data-id="home">Home</button>
-                    <button class="tab-button" data-id="css">CSS</button>
+                        data-id="home">General</button>
+                    <button class="tab-button" data-id="css">Products/Services</button>
                     <button class="tab-button" style="border-top-right-radius: 5px;border-bottom-right-radius: 5px;"
-                        data-id="script">Script</button>
+                        data-id="script">Support</button>
                 </div>
                 <div class="contentWrapper">
-                    <p class="content active" id="home">
-                        Tab 1
-                    </p>
-                    <p class="content" id="css">
-                        Tab 2
-                    </p>
-                    <p class="content" id="script">
-                        Tab 3
-                    </p>
+                    <div class="content active" id="home">
+                        <div class="flex flex-col gap-[16px] my-[48px]">
+                            <div class="text-[#101828] leading-[28px] text-[18px] font-[500]">
+                                Q. What is Global Square, and what is its mission?
+                                <br>
+                                <span class="font-[400] leading-[24px] font-[400] text-[16px] text-[#00000094] ">
+                                    A. Lorem ipsum dolor sit amet consectetur. Scelerisque odio quisque suspendisse
+                                    dolor
+                                    urna lacinia quisque. Lorem ipsum dolor sit amet consectetur. Scelerisque odio
+                                    quisque
+                                    suspendisse dolor urna lacinia quisque.
+                                </span>
+                            </div>
+                            <divider class="h-[1px] bg-[#EAECF0]">
+                            </divider>
+                            <div class="text-[#101828] leading-[28px] text-[18px] font-[500]">
+                                Q. How can I reach out to Global Square?
+                                <br>
+                                <span class="font-[400] leading-[24px] font-[400] text-[16px] text-[#00000094] ">
+                                    A. Lorem ipsum dolor sit amet consectetur. Scelerisque odio quisque suspendisse
+                                    dolor
+                                    urna lacinia quisque. Lorem ipsum dolor sit amet consectetur. Scelerisque odio
+                                    quisque
+                                    suspendisse dolor urna lacinia quisque.
+                                </span>
+                            </div>
+                            <divider class="h-[1px] bg-[#EAECF0]">
+                            </divider>
+                            <div class="text-[#101828] leading-[28px] text-[18px] font-[500]">
+                                Q. Who founded Global Square, and when was it established?
+                                <br>
+                                <span class="font-[400] leading-[24px] font-[400] text-[16px] text-[#00000094] ">
+                                    A. Lorem ipsum dolor sit amet consectetur. Scelerisque odio quisque suspendisse
+                                    dolor
+                                    urna lacinia quisque. Lorem ipsum dolor sit amet consectetur. Scelerisque odio
+                                    quisque
+                                    suspendisse dolor urna lacinia quisque.
+                                </span>
+                            </div>
+                            <divider class="h-[1px] bg-[#EAECF0]">
+                            </divider>
+                            <div class="text-[#101828] leading-[28px] text-[18px] font-[500]">
+                                Q. What makes Global Square unique in its industry?
+                                <br>
+                                <span class="font-[400] leading-[24px] font-[400] text-[16px] text-[#00000094] ">
+                                    A. Lorem ipsum dolor sit amet consectetur. Scelerisque odio quisque suspendisse
+                                    dolor
+                                    urna lacinia quisque. Lorem ipsum dolor sit amet consectetur. Scelerisque odio
+                                    quisque
+                                    suspendisse dolor urna lacinia quisque.
+                                </span>
+                            </div>
+                            <divider class="h-[1px] bg-[#EAECF0]">
+                            </divider>
+                            <div class="text-[#101828] leading-[28px] text-[18px] font-[500]">
+                                Q. Where can I follow Global Square on social media for updates?
+                                <br>
+                                <span class="font-[400] leading-[24px] font-[400] text-[16px] text-[#00000094] ">
+                                    A. Lorem ipsum dolor sit amet consectetur. Scelerisque odio quisque suspendisse
+                                    dolor
+                                    urna lacinia quisque. Lorem ipsum dolor sit amet consectetur. Scelerisque odio
+                                    quisque
+                                    suspendisse dolor urna lacinia quisque.
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="content" id="css">
+                        <div class="flex flex-col gap-[16px] my-[48px]">
+                            <div class="text-[#101828] leading-[28px] text-[18px] font-[500]">
+                                Q. What products and services does Global Square offer?
+                                <br>
+                                <span class="font-[400] leading-[24px] font-[400] text-[16px] text-[#00000094] ">
+                                    A. Lorem ipsum dolor sit amet consectetur. Scelerisque odio quisque suspendisse
+                                    dolor
+                                    urna lacinia quisque. Lorem ipsum dolor sit amet consectetur. Scelerisque odio
+                                    quisque
+                                    suspendisse dolor urna lacinia quisque.
+                                </span>
+                            </div>
+                            <divider class="h-[1px] bg-[#EAECF0]">
+                            </divider>
+                            <div class="text-[#101828] leading-[28px] text-[18px] font-[500]">
+                                Q. How do I place an order for products or services from Global Square?
+                                <br>
+                                <span class="font-[400] leading-[24px] font-[400] text-[16px] text-[#00000094] ">
+                                    A. Lorem ipsum dolor sit amet consectetur. Scelerisque odio quisque suspendisse
+                                    dolor
+                                    urna lacinia quisque. Lorem ipsum dolor sit amet consectetur. Scelerisque odio
+                                    quisque
+                                    suspendisse dolor urna lacinia quisque.
+                                </span>
+                            </div>
+                            <divider class="h-[1px] bg-[#EAECF0]">
+                            </divider>
+                            <div class="text-[#101828] leading-[28px] text-[18px] font-[500]">
+                                Q. Are there any upcoming product releases or service launches by Global Square?
+                                <br>
+                                <span class="font-[400] leading-[24px] font-[400] text-[16px] text-[#00000094] ">
+                                    A. Lorem ipsum dolor sit amet consectetur. Scelerisque odio quisque suspendisse
+                                    dolor
+                                    urna lacinia quisque. Lorem ipsum dolor sit amet consectetur. Scelerisque odio
+                                    quisque
+                                    suspendisse dolor urna lacinia quisque.
+                                </span>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="content" id="script">
+                        <div class="flex flex-col gap-[16px] my-[48px]">
+                            <div class="text-[#101828] leading-[28px] text-[18px] font-[500]">
+                                Q. What are the customer support hours at Global Square?
+                                <br>
+                                <span class="font-[400] leading-[24px] font-[400] text-[16px] text-[#00000094] ">
+                                    A. Lorem ipsum dolor sit amet consectetur. Scelerisque odio quisque suspendisse
+                                    dolor
+                                    urna lacinia quisque. Lorem ipsum dolor sit amet consectetur. Scelerisque odio
+                                    quisque
+                                    suspendisse dolor urna lacinia quisque.
+                                </span>
+                            </div>
+                            <divider class="h-[1px] bg-[#EAECF0]">
+                            </divider>
+                            <div class="text-[#101828] leading-[28px] text-[18px] font-[500]">
+                                Q. What should I do if I encounter a problem with a product or service from Global
+                                Square?
+                                <br>
+                                <span class="font-[400] leading-[24px] font-[400] text-[16px] text-[#00000094] ">
+                                    A. Lorem ipsum dolor sit amet consectetur. Scelerisque odio quisque suspendisse
+                                    dolor
+                                    urna lacinia quisque. Lorem ipsum dolor sit amet consectetur. Scelerisque odio
+                                    quisque
+                                    suspendisse dolor urna lacinia quisque.
+                                </span>
+                            </div>
+
+
+                        </div>
+                    </div>
                 </div>
             </div>
 
@@ -197,9 +328,6 @@ include('header.php')
                     </div>
                 </div>
             </div>
-
-
-
         </div>
     </div>
 </div>
