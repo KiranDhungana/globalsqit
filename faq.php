@@ -9,57 +9,57 @@
     href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@500&family=Plus+Jakarta+Sans:wght@500&family=Raleway:wght@700&display=swap"
     rel="stylesheet">
 <style>
-    .wrapper {
-        width: 100%;
-        margin: auto;
-        background-color: white;
-        border-radius: 10px;
-        box-shadow: 0px 5px 15px rgba(0, 0, 0, .1);
-    }
+.wrapper {
+    width: 100%;
+    margin: auto;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, .1);
+}
 
-    .buttonWrapper {
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-    }
+.buttonWrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
 
-    button {
+button {
 
-        height: 52px;
-        letter-spacing: 3px;
-        border-right: 1px solid var(--Gray-300, #D0D5DD);
-        padding: 16px;
-        color: #232c3d;
-        font-size: 18px;
-        cursor: pointer;
-        transition: 0.5s;
-    }
+    height: 52px;
+    letter-spacing: 3px;
+    border-right: 1px solid var(--Gray-300, #D0D5DD);
+    padding: 16px;
+    color: #232c3d;
+    font-size: 18px;
+    cursor: pointer;
+    transition: 0.5s;
+}
 
-    button:hover {
-        background-color: #d5e3ff;
-    }
+button:hover {
+    background-color: #d5e3ff;
+}
 
-    button.active {
-        background-color: #36E993;
+button.active {
+    background-color: #36E993;
 
-    }
+}
 
-    .active {
-        background-color: white;
-    }
+.active {
+    background-color: white;
+}
 
-    p {
-        text-align: left;
-        padding: 10px;
-    }
+p {
+    text-align: left;
+    padding: 10px;
+}
 
-    .content {
-        display: none;
-        padding: 10px 20px;
-    }
+.content {
+    display: none;
+    padding: 10px 20px;
+}
 
-    .content.active {
-        display: block;
-    }
+.content.active {
+    display: block;
+}
 </style>
 <?php
 include('header.php')
@@ -336,21 +336,21 @@ include('footer.php');
 ?>
 
 <script>
-    const tabs = document.querySelector(".wrapper");
-    const tabButton = document.querySelectorAll(".tab-button");
-    const contents = document.querySelectorAll(".content");
-    tabs.onclick = e => {
-        const id = e.target.dataset.id;
-        if (id) {
-            tabButton.forEach(btn => {
-                btn.classList.remove("active");
-            });
-            e.target.classList.add("active");
-            contents.forEach(content => {
-                content.classList.remove("active");
-            });
-            const element = document.getElementById(id);
-            element.classList.add("active");
-        }
+const tabs = document.querySelector(".wrapper");
+const tabButton = document.querySelectorAll(".tab-button");
+const contents = document.querySelectorAll(".content");
+tabs.onclick = e => {
+    const id = e.target.dataset.id;
+    if (id) {
+        tabButton.forEach(btn => {
+            btn.classList.remove("active");
+        });
+        e.target.classList.add("active");
+        contents.forEach(content => {
+            content.classList.remove("active");
+        });
+        const element = document.getElementById(id);
+        element.classList.add("active");
     }
+}
 </script>
