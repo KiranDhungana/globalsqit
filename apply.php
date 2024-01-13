@@ -8,6 +8,12 @@
 <link
     href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@500&family=Plus+Jakarta+Sans:wght@500&family=Raleway:wght@700&display=swap"
     rel="stylesheet">
+<style>
+input:focus {
+    border: 1px solid #C1C1C1;
+    border-radius: 4px 4px 0px 0px;
+}
+</style>
 
 <?php
 include('header.php');
@@ -110,7 +116,111 @@ include('header.php');
             </div>
 
         </div>
-        <div class="...">05</div>
+        <!-- form -->
+        <div class="flex flex-col gap-[4px]">
+            <div class="flex flex-row items-center gap-[10px]">
+                <svg xmlns="http://www.w3.org/2000/svg" width="8" height="14" viewBox="0 0 8 14" fill="none">
+                    <path d="M5 1L1 7H7L3 13" stroke="#5EBE90" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round" />
+                </svg>
+                <p style="line-height: 150%;" class="text-[#5EBE90] ">
+                    Auto Application Fill
+
+                </p>
+            </div>
+            <div class="flex flex-row justify-between items-center">
+                <div class="text-[12px]">
+                    Save time by importing resume.
+                </div>
+                <div class="flex flex-row item-center justify-center bg-[#5EBE90] rounded-[4px]">
+                    <p class="text-[12px] px-[16px] py-[8px]">
+                        Drag & drop resume or browse
+                    </p>
+                </div>
+            </div>
+            <div class="flex flex-row items-center ">
+                <div style="flex:1" class="bg-[#F0F0F0] h-[2px] rounded-[2px]">
+
+                </div>
+                <div class="mx-[4px] text-[12px]">
+                    or
+                </div>
+                <div style="flex: 1;" class="bg-[#F0F0F0] h-[2px] rounded-[2px] ">
+
+                </div>
+
+            </div>
+            <p class="text-[#090914] font-[600] mb-[12px]">
+                General Information
+            </p>
+            <div class="flex flex-col gap-[16px]">
+                <div>
+                    <label class="mb-[12px] text-[#090914] text-[14px]">
+                        Full Name <span class="text-[#F65353]">*</span>
+                    </label>
+                    <input style="border-radius: 4px 4px 0px 0px; width: 100%;  padding: 8px 0px 8px 16px;" type="text"
+                        placeholder="Enter your full name">
+                </div>
+                <div>
+                    <label class="mb-[12px] text-[#090914] text-[14px]">
+                        Email Address <span class="text-[#F65353]">*</span>
+                    </label>
+                    <input style="border-radius: 4px 4px 0px 0px; width: 100%;  padding: 8px 0px 8px 16px;" type="text"
+                        placeholder="Enter your full name">
+                </div>
+                <div>
+                    <label class="mb-[12px] text-[#090914] text-[14px]">
+                        Current Address <span class="text-[#F65353]">*</span>
+                    </label>
+                    <input style="border-radius: 4px 4px 0px 0px; width: 100%;  padding: 8px 0px 8px 16px;" type="text"
+                        placeholder="Enter your full name">
+                </div>
+                <div>
+                    <label class="mb-[12px] text-[#090914] text-[14px]">
+                        Job Designation <span class="text-[#F65353]">*</span>
+                    </label>
+                    <input style="border-radius: 4px 4px 0px 0px; width: 100%;  padding: 8px 0px 8px 16px;" type="text"
+                        placeholder="Enter your full name">
+                </div>
+                <div>
+                    <label class="mb-[12px] text-[#090914] text-[14px]">
+                        Expected Salary<span class="text-[#F65353]">*</span>
+                    </label>
+                    <input style="border-radius: 4px 4px 0px 0px; width: 100%;  padding: 8px 0px 8px 16px;" type="text"
+                        placeholder="Enter your full name">
+                </div>
+                <div>
+                    <label class="mb-[12px] text-[#090914] text-[14px]">
+                        Describe yourself<span class="text-[#F65353]">*</span>
+                    </label>
+                    <textarea style="border-radius: 4px 4px 0px 0px; width: 100%;  padding: 8px 0px 8px 16px;"
+                        placeholder="Write something about yourself.">
+                    </textarea>
+                </div>
+                <div>
+                    <label class=" text-[#090914] text-[14px]">
+                        CV/Resume <span class="text-[#F65353]">*</span>
+                    </label>
+                    <div class="flex flex-row justify-center mt-[24px]">
+                        Drag & drop resume or
+                        <span style="  text-decoration: underline;">
+                            browse
+                        </span>
+                    </div>
+
+                </div>
+                <div class="flex flex-row justify-end my-[16px]">
+                    <div class="bg-[#5EBE90] h-[36px] rounded-[4px]">
+                        <p style="padding: 8px 24px;" class="font-[400] text-[14px] text-white">
+                            Submit
+                        </p>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+        <!-- form end  -->
 
     </div>
     <p class="text-[#090914] font-[600] text-[26px]">
