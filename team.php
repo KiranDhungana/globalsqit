@@ -92,7 +92,8 @@ include('header.php')
             </div>
             <div>
                 <div class="container">
-                    <img class="w-[288px] imgss h-[336px] rounded-b-[8px] imgt" src="images/saurab.png" alt="CEO">
+                    <img style="object-fit:cover" class="w-[288px] imgss h-[336px] rounded-b-[8px] imgt"
+                        src="images/saurab.png" alt="CEO">
 
                     <div class="bottom-left2 ">
                         <p class="pt-[270px] pl-[32px] text-[#FFF] font-[600] text-[18px]">
@@ -109,7 +110,8 @@ include('header.php')
             </div>
             <div>
                 <div class="container">
-                    <img class="w-[288px] imgss h-[336px] rounded-b-[8px] imgt" src="images/rabin.png" alt="CEO">
+                    <img style="object-fit:cover" class="w-[288px] imgss h-[336px] rounded-b-[8px] imgt"
+                        src="images/rabin.png" alt="CEO">
 
                     <div class="bottom-left2">
                         <p class="pt-[270px] pl-[32px] text-[#FFF] font-[600] text-[18px]">
@@ -126,7 +128,8 @@ include('header.php')
             </div>
             <div>
                 <div class="container">
-                    <img class="w-[288px] imgss h-[336px] rounded-b-[8px] imgt" src="images/janak.png" alt="CEO">
+                    <img style="object-fit:cover" class="w-[288px] imgss h-[336px] rounded-b-[8px] imgt"
+                        src="images/janak.png" alt="CEO">
 
                     <div class="bottom-left2">
                         <p class="pt-[270px] pl-[32px] text-[#FFF] font-[600] text-[18px]">
@@ -146,14 +149,15 @@ include('header.php')
         <div class="flex flex-row justify-between">
             <div>
                 <div class="container">
-                    <img class="w-[288px] imgss h-[336px] rounded-b-[8px] imgt" src="images/binay.png" alt="CEO">
+                    <img style="object-fit:cover" class="w-[288px] imgss h-[336px] rounded-b-[8px] imgt"
+                        src="images/alina.jpeg" alt="UX/UI">
 
                     <div class="bottom-left2 ">
                         <p class="pt-[270px] pl-[32px] text-[#FFF] font-[600] text-[18px]">
-                            Binay Rijal
+                            Alina Chhetri
                             <br>
                             <span class="font-[400] text-[14px]">
-                                CEO/Founder
+                                UX/UI Designer
 
                             </span>
 
@@ -163,14 +167,15 @@ include('header.php')
             </div>
             <div>
                 <div class="container">
-                    <img class="w-[288px] imgss h-[336px] rounded-b-[8px] imgt" src="images/binay.png" alt="CEO">
+                    <img style="object-fit:cover" class="w-[288px] imgss h-[336px] rounded-b-[8px] imgt"
+                        src="images/nishant.png" alt="QA">
 
                     <div class="bottom-left2 ">
                         <p class="pt-[270px] pl-[32px] text-[#FFF] font-[600] text-[18px]">
-                            Binay Rijal
+                            Nishant Poudel
                             <br>
                             <span class="font-[400] text-[14px]">
-                                CEO/Founder
+                                QA automation Engineer
 
                             </span>
 
@@ -180,14 +185,15 @@ include('header.php')
             </div>
             <div>
                 <div class="container">
-                    <img class="w-[288px] imgss h-[336px] rounded-b-[8px] imgt" src="images/binay.png" alt="CEO">
+                    <img style="object-fit:cover" class="w-[288px] imgss h-[336px] rounded-b-[8px] imgt"
+                        src="images/nirajan.png" alt="CEO">
 
                     <div class="bottom-left2">
                         <p class="pt-[270px] pl-[32px] text-[#FFF] font-[600] text-[18px]">
-                            Binay Rijal
+                            Nirajan Maharjan
                             <br>
                             <span class="font-[400] text-[14px]">
-                                CEO/Founder
+                                Software Engineer
 
                             </span>
 
@@ -197,14 +203,14 @@ include('header.php')
             </div>
             <div>
                 <div class="container">
-                    <img class="w-[288px] imgss h-[336px] rounded-b-[8px] imgt" src="images/binay.png" alt="CEO">
+                    <img class="w-[288px] imgss h-[336px] rounded-b-[8px] imgt" src="images/saurab.jpeg" alt="sandesh">
 
                     <div class="bottom-left2">
                         <p class="pt-[270px] pl-[32px] text-[#FFF] font-[600] text-[18px]">
-                            Binay Rijal
+                            Sandesh Bhusal
                             <br>
                             <span class="font-[400] text-[14px]">
-                                CEO/Founder
+                                Software Engineer
 
                             </span>
 

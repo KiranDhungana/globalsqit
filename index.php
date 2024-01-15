@@ -75,7 +75,7 @@
     include('header.php');
     ?>
 
-    <div class="grid grid-cols-2 items-center mt-[72px] mx-[50px]">
+    <div class="grid grid-cols-2 items-center mt-[72px] mx-[132px]">
         <div class="text-[40px] font-[500px] mb-[30px]">
             Welcome to <span class="text-[#0CB061] font-[700]">Global Square IT</span>- Unleashing
             Digital
@@ -113,7 +113,7 @@
         </div>
     </div>
     <!-- TRUSTED BY SECTION -->
-    <div class="flex flex-col mx-[50px] my-[48px] gap-[24px]">
+    <div class="flex flex-col mx-[132px] my-[48px] gap-[24px]">
         <div class="font-[600] text-[40px] text-[#353937]">
             Trusted by
         </div>
@@ -243,7 +243,7 @@
     </div>
     <!-- Introduction section  -->
     <div class="grid mb-[20px] gap-[30px]">
-        <div class="grid grid-cols-2 mx-[50px]">
+        <div class="grid grid-cols-2 mx-[132px]">
             <div>
                 <img class="w-[424px] rounded-[8px] h-[348px] " src="images/homepage.jpeg" alt="globalsquare">
             </div>
@@ -264,7 +264,7 @@
 
         </div>
 
-        <div class="grid grid-cols-2 mx-[50px]">
+        <div class="grid grid-cols-2 mx-[132px]">
             <div class="flex flex-col gap-[24px]">
 
                 <div class="text-[52px] font-[600]">
@@ -290,7 +290,7 @@
 
         </div>
 
-        <div class="grid grid-cols-2 mx-[50px]">
+        <div class="grid grid-cols-2 mx-[132px]">
             <div class="flex flex-col gap-[24px]">
 
                 <div class="text-[52px] font-[600]">
@@ -314,7 +314,7 @@
 
     <!-- Why choose us section  -->
     <div style="overflow: hidden;" class="h-[838px] mb-[86px]  bg-[#1B1B1B] ">
-        <div class="grid grid-cols-2 px-[50px]">
+        <div class="grid grid-cols-2 px-[132px]">
             <div class="flex flex-row gap-[20px]">
                 <div class="flex flex-col gap-[20px]">
                     <div>
@@ -420,7 +420,7 @@
         </div>
 
 
-        <div class="mx-[50px] flex flex-row justify-between mb-[64px]">
+        <div class="mx-[132px] flex flex-row justify-between mb-[64px] mt-[48px]">
             <div class="flex flex-col gap-[40px] items-center ">
                 <svg class="h-[24px] w-[24px]" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                     viewBox="0 0 24 24" fill="none">
@@ -545,7 +545,7 @@
     <!-- services section end  -->
 
     <!-- Our team section  start  -->
-    <div class="grid mx-[50px] mb-[60px] ">
+    <div class="grid mx-[132px] mb-[60px] ">
         <div class="flex flex-row rounded-[20px] ">
             <div style="flex:1">
                 <div class="text-[52px]  font-[600] text-[#090914] w-[472px] ">
@@ -569,13 +569,20 @@
         <div class="flex flex-row  ">
             <div style="flex:1 " class="text-[#74C392] flex flex-row items-end ">
                 <div class="pb-[25px] flex flex-row">
-                    See all
-                    <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" viewBox="0 0 26 26" fill="none">
-                        <path
-                            d="M10.0758 8.22692L17.5004 8.22692M17.5004 8.22692L17.5004 15.6515M17.5004 8.22692L7.9545 17.7729"
-                            stroke="#74C392" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-                    </svg>
+                    <div>
+                        <a href="./team.php">
+                            See all
 
+                        </a>
+
+                    </div>
+                    <div>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" viewBox="0 0 26 26" fill="none">
+                            <path
+                                d="M10.0758 8.22692L17.5004 8.22692M17.5004 8.22692L17.5004 15.6515M17.5004 8.22692L7.9545 17.7729"
+                                stroke="#74C392" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                    </div>
                 </div>
             </div>
             <div>
@@ -593,7 +600,7 @@
 
     </div>
     <!-- our team section end  -->
-    <div class="mx-[50px] mb-[60px]">
+    <div class="mx-[132px] mb-[60px]">
         <div id="clippath" class="mb-[50px] h-[352px] bg-[#090914] rounded-[15px]">
             <div class="flex flex-row  justify-between  px-[20px] py-[20px]">
 

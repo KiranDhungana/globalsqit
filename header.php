@@ -45,7 +45,7 @@
 </header>
 
 <!-- pc view  -->
-<header class="hidden sm:block pt-[10px]">
+<div class="hidden sm:block pt-[10px] mx-[132px]">
     <div class="flex  h-[79px] flex-row justify-between items-center ">
         <div class=" font-[800px] leading-[30px] ">
             GLOBAL <span class="text-[#04A558] font-[800] ">SQUARE</span>
@@ -65,21 +65,31 @@
     <div class="flex leading-[24px] text-[16px] font-[300px] text-[#3D3D3D] flex-row items-center">
         <ul class="flex flex-row gap-[24px]">
             <li>
-                Introduction
+                <a href="./">
+                    Introduction
+                </a>
             </li>
             <li>
-                Why Choose us ?
+                <a href="./whychooseus.php">
+                    Why Choose us ?
+                </a>
             </li>
             <li>
-                Our Services
+                <a href="./ourservice.php">
+                    Our Services
+                </a>
             </li>
             <li>
-                Our Team
+                <a href="./team.php">
+                    Our Team
+                </a>
             </li>
             <li>
-                FAQs
+                <a href="./faq.php">
+                    FAQs
+                </a>
             </li>
         </ul>
 
     </div>
-</header>
+</div>
