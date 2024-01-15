@@ -48,8 +48,7 @@
 
     #child2 {
         position: absolute;
-        /* bottom: -25px; */
-        top: 650px;
+
 
     }
 
@@ -75,7 +74,7 @@
     include('header.php');
     ?>
 
-    <div class="grid grid-cols-2 items-center mt-[72px] mx-[132px]">
+    <div class="grid md:grid-cols-2 items-center mt-[72px] mx-[24px] md:mx-[132px]">
         <div class="text-[40px] font-[500px] mb-[30px]">
             Welcome to <span class="text-[#0CB061] font-[700]">Global Square IT</span>- Unleashing
             Digital
@@ -109,15 +108,16 @@
                         App Development</p>
                 </div>
                 <img id="parent2" class="h-[244px] w-[244px]" src="images/gs3.png" alt="globalsquare">
+
             </div>
         </div>
     </div>
     <!-- TRUSTED BY SECTION -->
-    <div class="flex flex-col mx-[132px] my-[48px] gap-[24px]">
+    <div class="flex flex-col md:mx-[132px] mx-[24px] my-[48px] gap-[24px]">
         <div class="font-[600] text-[40px] text-[#353937]">
             Trusted by
         </div>
-        <div class="flex flex-row justify-between">
+        <div class="flex flex-row justify-between md:overflow-x-scroll overflow-x-scroll">
             <div class="p-[16px]">
                 <svg xmlns="http://www.w3.org/2000/svg" width="88" height="31" viewBox="0 0 88 31" fill="none">
                     <g clip-path="url(#clip0_476_6833)">
@@ -243,7 +243,7 @@
     </div>
     <!-- Introduction section  -->
     <div class="grid mb-[20px] gap-[30px]">
-        <div class="grid grid-cols-2 mx-[132px]">
+        <div class="grid md:grid-cols-2 grid-cols-1 md:mx-[132px] mx-[48px]">
             <div>
                 <img class="w-[424px] rounded-[8px] h-[348px] " src="images/homepage.jpeg" alt="globalsquare">
             </div>
@@ -261,12 +261,9 @@
                     streamline processes, and drive results.
                 </div>
             </div>
-
         </div>
-
-        <div class="grid grid-cols-2 mx-[132px]">
+        <div class="grid md:grid-cols-2 grid-cols-1 md:mx-[132px] mx-[48px]">
             <div class="flex flex-col gap-[24px]">
-
                 <div class="text-[52px] font-[600]">
                     Our Vision
                 </div>
@@ -276,7 +273,6 @@
                 </div>
             </div>
             <div class="flex flex-col gap-[24px]">
-
                 <div class="text-[52px] font-[600]">
                     Our Mission
                 </div>
@@ -287,12 +283,9 @@
                     innovation, we aim to empower businesses to thrive in the digital age.
                 </div>
             </div>
-
         </div>
-
-        <div class="grid grid-cols-2 mx-[132px]">
+        <div class="grid md:grid-cols-2 grid-cols-1 md:mx-[132px] mx-[48px]">
             <div class="flex flex-col gap-[24px]">
-
                 <div class="text-[52px] font-[600]">
                     Our Expertise
                 </div>
@@ -313,7 +306,7 @@
     <!-- Introduction section end   -->
 
     <!-- Why choose us section  -->
-    <div style="overflow: hidden;" class="h-[838px] mb-[86px]  bg-[#1B1B1B] ">
+    <div style="overflow: hidden;" class="md:h-[838px] mb-[86px]  bg-[#1B1B1B] ">
         <div class="grid grid-cols-2 px-[132px]">
             <div class="flex flex-row gap-[20px]">
                 <div class="flex flex-col gap-[20px]">
@@ -341,7 +334,7 @@
                 </div>
             </div>
             <!-- 2nd col -->
-            <div class=" w-[502px] gap-[32px] flex flex-col">
+            <div class=" md:w-[502px] gap-[32px] flex flex-col">
                 <div class="mt-[418px] flex flex-col gap-[16px]">
                     <div class="why">
                         Why Choose Us?
@@ -405,7 +398,7 @@
             <div class=" text-[52px] text-center font-[600] text-[#090914]">
                 OUR SERVICES
             </div>
-            <div class="text-[#667085] w-[1056px] flex flex-row justify-center text-[20px] font-[400]">
+            <div class="text-[#667085] text-center   flex md:flex-row flex-col justify-center text-[20px] font-[400]">
                 <div>
                     Welcome to Global Square, where innovation meets excellence. Explore our diverse services tailored
                     to
@@ -420,7 +413,7 @@
         </div>
 
 
-        <div class="mx-[132px] flex flex-row justify-between mb-[64px] mt-[48px]">
+        <div class="md:mx-[132px]  flex md:flex-row flex-col justify-between mb-[64px] mt-[48px]">
             <div class="flex flex-col gap-[40px] items-center ">
                 <svg class="h-[24px] w-[24px]" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                     viewBox="0 0 24 24" fill="none">
@@ -491,7 +484,7 @@
 
         </div>
 
-        <div class="mx-[50px] flex flex-row justify-center gap-[35px] ">
+        <div class="mx-[50px] flex md:flex-row flex-col justify-center gap-[35px] ">
             <div class="flex flex-col gap-[40px] items-center ">
                 <svg class="h-[24px] w-[24px]" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                     viewBox="0 0 24 20" fill="none">
@@ -545,7 +538,7 @@
     <!-- services section end  -->
 
     <!-- Our team section  start  -->
-    <div class="grid mx-[132px] mb-[60px] ">
+    <div class="grid md:mx-[132px] mx-[48px] mb-[60px] ">
         <div class="flex flex-row rounded-[20px] ">
             <div style="flex:1">
                 <div class="text-[52px]  font-[600] text-[#090914] w-[472px] ">
@@ -600,7 +593,7 @@
 
     </div>
     <!-- our team section end  -->
-    <div class="mx-[132px] mb-[60px]">
+    <div class="md:mx-[132px] mx-[48px] mb-[60px]">
         <div id="clippath" class="mb-[50px] h-[352px] bg-[#090914] rounded-[15px]">
             <div class="flex flex-row  justify-between  px-[20px] py-[20px]">
 

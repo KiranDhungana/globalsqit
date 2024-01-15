@@ -1,5 +1,5 @@
 <div class="grid">
-    <div class="py-[48px] px-[132px] bg-[#2F5A45]">
+    <div class="py-[48px] md:px-[132px] px-[48px] bg-[#2F5A45]">
         <div class="flex flex-row justify-between">
             <div class="flex flex-col gap-[8px] ">
                 <p style="letter-spacing: 3px;" class="text-[#FFF]  font-[400]">GLOBAL<span

@@ -1,5 +1,5 @@
 <!-- mobile view -->
-<header class="sm:hidden pt-[10px]">
+<header class="md:hidden pt-[10px]">
     <div class="header-left">
         <div class="logo font-[800px] ">
             GLOBAL <span class="text-[#04A558] font-[800]">SQUARE</span>
@@ -24,9 +24,7 @@
         </nav>
     </div>
     <div class="header-right">
-        <div class="login-signup">
-            <a href="">Login</a> or <a href="">Signup</a>
-        </div>
+
         <div class="hamburger ">
             <div id="toggleButton" class="toggle-btn">
                 <svg id="icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
@@ -45,7 +43,7 @@
 </header>
 
 <!-- pc view  -->
-<div class="hidden sm:block pt-[10px] mx-[132px]">
+<div class="hidden md:block pt-[10px] mx-[132px]">
     <div class="flex  h-[79px] flex-row justify-between items-center ">
         <div class=" font-[800px] leading-[30px] ">
             GLOBAL <span class="text-[#04A558] font-[800] ">SQUARE</span>
