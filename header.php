@@ -1,9 +1,10 @@
 <!-- mobile view -->
 <header class="md:hidden pt-[10px]">
     <div class="header-left">
-        <div class="logo font-[800px] ">
+        <!-- <div class="logo font-[800px] ">
             GLOBAL <span class="text-[#04A558] font-[800]">SQUARE</span>
-        </div>
+        </div> -->
+        <img src="./images/logo.svg" alt="companylogo">
         <nav>
             <ul class="flex gap-[24px] flex-col leading-[24px] text-[16px] font-[300px] text-[#3D3D3D] ">
                 <li>
@@ -45,9 +46,10 @@
 <!-- pc view  -->
 <div class="hidden md:block pt-[10px] mx-[132px]">
     <div class="flex  h-[79px] flex-row justify-between items-center ">
-        <div class=" font-[800px] leading-[30px] ">
+        <!-- <div class=" font-[800px] leading-[30px] ">
             GLOBAL <span class="text-[#04A558] font-[800] ">SQUARE</span>
-        </div>
+        </div> -->
+         <img src="./images/logo.svg" alt="companylogo">
         <div class="flex text-[12px] flex-row items-center gap-[32px] ">
             <div>
                 <a href="./jointeam.php" target="blank" >
@@ -82,11 +84,11 @@
                     Our Services
                 </a>
             </li>
-            <li>
+            <!-- <li>
                 <a href="./team.php">
                     Our Team
                 </a>
-            </li>
+            </li> -->
             <li>
                 <a href="./faq.php">
                     FAQs

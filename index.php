@@ -51,7 +51,13 @@
 
 
     }
-
+.parentcircle{
+ position: relative;
+}
+.circle1{
+ position: absolute;
+left:450px;
+}
     .why {
 
         font-size: 40px;
@@ -81,7 +87,8 @@
                 Connecting Opportunities, Harvesting Success </span>
         </div>
         <div class="flex flex-col  ">
-            <div class="flex flex-row justify-end">
+            <img src="./images/hero.gif" alt="hero">
+            <!-- <div class="flex flex-row justify-end">
                 <img id="parent" class="h-[180px] w-[180px]" src="images/gs1.png" alt="globalsquare">
                 <div id="child" class="flex flex-col w-[222px]  ">
                     <p class="font-[700] text-[14px]">Design & Development</p>
@@ -106,7 +113,7 @@
                 </div>
                 <img id="parent2" class="h-[244px] w-[244px]" src="images/gs3.png" alt="globalsquare">
 
-            </div>
+            </div> -->
         </div>
     </div>
     <!-- TRUSTED BY SECTION -->
@@ -206,8 +213,10 @@
                 </div>
             </div>
             <!-- 2nd col -->
-            <div class=" md:w-[502px] gap-[32px] flex flex-col">
-                <div class="mt-[418px] flex flex-col gap-[16px]">
+            <div class="parentcircle md:w-[502px] gap-[32px] flex flex-col">
+                  <img class="circle1" style="width: 478px;height: 478px;" src="./images/why-2.png" alt="why">
+                <div class="mt-[230px] flex flex-col gap-[16px]">
+                  
                     <div class="why">
                         Why Choose Us?
                     </div>

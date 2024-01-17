@@ -235,7 +235,7 @@ include('header.php')
     </div>
 
 
-    <div class=" mb-[60px]">
+    <div class=" mb-[60px] mt-[60px]">
         <div id="clippath" class="mb-[50px] h-[352px] bg-[#090914] rounded-[15px]">
             <div class="flex flex-row  justify-between  px-[20px] py-[20px]">
 
