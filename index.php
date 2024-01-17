@@ -117,7 +117,7 @@
         <div class="font-[600] text-[40px] text-[#353937]">
             Trusted by
         </div>
-        <div class="flex flex-row justify-between md:overflow-x-scroll overflow-x-scroll">
+        <div  class="flex scrol flex-row justify-between  overflow-x-auto">
             <div class="p-[16px]">
                 <svg xmlns="http://www.w3.org/2000/svg" width="88" height="31" viewBox="0 0 88 31" fill="none">
                     <g clip-path="url(#clip0_476_6833)">
@@ -243,9 +243,9 @@
     </div>
     <!-- Introduction section  -->
     <div class="grid mb-[20px] gap-[30px]">
-        <div class="grid md:grid-cols-2 grid-cols-1 md:mx-[132px] mx-[48px]">
-            <div>
-                <img class="w-[424px] rounded-[8px] h-[348px] " src="images/homepage.jpeg" alt="globalsquare">
+        <div class="grid md:grid-cols-2 grid-cols-1 justify-center md:mx-[132px] mx-[48px]">
+            <div class="md:flex md:flex-col flex flex-row justify-center " >
+                <img style="object-fit: cover;" class="w-[424px] rounded-[8px] h-[348px] " src="images/homepage.jpeg" alt="globalsquare">
             </div>
             <div class="flex flex-col gap-[24px]">
                 <div class="text-[#5EBE90] text-[16px] font-[600] ">
@@ -267,7 +267,7 @@
                 <div class="text-[52px] font-[600]">
                     Our Vision
                 </div>
-                <div class="text-[16px] font-[400] text-[#18181B] text-justify w-[500px]">
+                <div class="text-[16px] font-[400] text-[#18181B] text-justify md:w-[500px]">
                     To be the catalyst of digital transformation, empowering businesses globally through cutting-edge
                     software solutions and innovative technologies.
                 </div>
@@ -289,7 +289,7 @@
                 <div class="text-[52px] font-[600]">
                     Our Expertise
                 </div>
-                <div class="text-[16px] font-[400] text-[#18181B] text-justify w-[500px]">
+                <div class="text-[16px] font-[400] text-[#18181B] text-justify md:w-[500px]">
                     At the core of our services is our commitment to excellence in software development. Our experienced
                     team of developers is proficient in a wide array of technologies, ensuring that we can meet the
                     diverse needs of our clients. From web applications and mobile apps to custom software solutions, we
@@ -402,7 +402,7 @@
                 <div>
                     Welcome to Global Square, where innovation meets excellence. Explore our diverse services tailored
                     to
-                    propel
+                    propel your business forward, driving sustainable success.
                     <div class="text-center">
 
                         your business forward, driving sustainable success.
@@ -413,7 +413,7 @@
         </div>
 
 
-        <div class="md:mx-[132px]  flex md:flex-row flex-col justify-between mb-[64px] mt-[48px]">
+        <div class="md:mx-[132px] mx-[48px] md:grid grid-cols-3 flex flex-row    justify-between mb-[64px] mt-[48px]">
             <div class="flex flex-col gap-[40px] items-center ">
                 <svg class="h-[24px] w-[24px]" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                     viewBox="0 0 24 24" fill="none">
@@ -436,7 +436,7 @@
                 </svg>
                 <div class="text-[20px] text-[#101828]  text-center font-[500]">
                     Custom Software Development
-                    <div class="text-[#667085] pb-[24px] font-[400] text-[16px] w-[324px]">
+                    <div class="text-[#667085] pb-[24px] font-[400] text-[16px]  w-auto">
                         Tailored solutions to meet your specific business requirements.
                     </div>
 
@@ -456,7 +456,7 @@
                 </svg>
                 <div class="text-[20px] text-[#101828] font-[500] text-center">
                     Web Application Development
-                    <div class="text-[#667085] pb-[24px] font-[400] text-[16px] w-[324px]">
+                    <div class="text-[#667085] pb-[24px] font-[400] text-[16px] w-auto">
                         Responsive and scalable web applications for seamless user experiences.
                     </div>
 
@@ -474,17 +474,18 @@
                 </svg>
                 <div class="text-[20px] text-[#101828]  text-center font-[500]">
                     Mobile App Development
-                    <div class="text-[#667085] pb-[24px] font-[400] text-[16px] w-[324px]">
+                    <div class="text-[#667085] pb-[24px] font-[400] text-[16px] w-auto">
                         Native and cross-platform mobile apps that engage and captivate users.
                     </div>
 
                 </div>
 
             </div>
+         
 
         </div>
 
-        <div class="mx-[50px] flex md:flex-row flex-col justify-center gap-[35px] ">
+        <div class="mx-[50px]  flex md:flex-row flex-col  justify-center gap-[35px] ">
             <div class="flex flex-col gap-[40px] items-center ">
                 <svg class="h-[24px] w-[24px]" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                     viewBox="0 0 24 20" fill="none">
@@ -501,7 +502,7 @@
                 </svg>
                 <div class="text-[20px] text-[#101828]  text-center font-[500]">
                     UI/UX Design
-                    <div class="text-[#667085] pb-[24px] font-[400] text-[16px] w-[324px]">
+                    <div class="text-[#667085] pb-[24px] font-[400] text-[16px] w-auto">
                         Intuitive and visually appealing designs that enhance user satisfaction.
                     </div>
 
@@ -524,7 +525,7 @@
                 </svg>
                 <div class="text-[20px] text-[#101828] font-[500] text-center">
                     Quality Assurance
-                    <div class="text-[#667085] pb-[24px] font-[400] text-[16px] w-[344px]">
+                    <div class="text-[#667085] pb-[24px] font-[400] text-[16px] w-auto">
                         Rigorous testing processes to ensure the reliability and performance of your software.
                     </div>
 

@@ -5,8 +5,14 @@
     text-decoration: none;
     list-style: none;
  font-family: 'Plus Jakarta Sans', sans-serif;
+  
 }
-
+.scrol::-webkit-scrollbar {
+    display: none;
+}
+.scrol::-webkit-scrollbar {
+    display: none;
+}
 
 header {
     /* height:79px; */
