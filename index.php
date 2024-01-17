@@ -58,6 +58,21 @@
  position: absolute;
 left:450px;
 }
+.gototop{
+    position: fixed;
+    right: 10;
+  bottom: 0;
+  width: 100%;
+text-align: right;
+
+}
+.gototop svg{
+    float: right;
+margin-right: 30px;
+margin-bottom: 20px;
+background: #0CB061;
+border-radius: 20px;
+}
     .why {
 
         font-size: 40px;
@@ -73,6 +88,12 @@ left:450px;
 </head>
 
 <body>
+    <div class="gototop" >
+    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+<path d="M12 19V5" stroke="#136849" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M5 12L12 5L19 12" stroke="#136849" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+    </div>
 
   <?php
     include('header.php');
