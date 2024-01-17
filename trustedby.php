@@ -1,5 +1,5 @@
 <div class="flex flex-col md:mx-[132px] mx-[24px] my-[48px] gap-[24px]">
-        <div class="font-[600] text-[40px] text-[#353937]">
+        <div class="font-[600] md:text-[40px] text-[18px] text-[#353937]">
             Trusted by
         </div>
         <div  class="flex scrol flex-row justify-between  overflow-x-auto">

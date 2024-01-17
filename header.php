@@ -50,13 +50,18 @@
         </div>
         <div class="flex text-[12px] flex-row items-center gap-[32px] ">
             <div>
+                <a href="./jointeam.php" target="blank" >
                 Join us ?
+
+                </a>
             </div>
-            <div class="bg-black text-center rounded-[2px]">
+            <a href="./apply.php" >
+                <div class="bg-black text-center rounded-[2px]">
                 <p class="py-[12px] text-[18px] font-[600px] px-[24px] text-white ">
                     Contact Us
                 </p>
             </div>
+            </a>
         </div>
     </div>
 

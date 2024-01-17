@@ -68,13 +68,10 @@
 
 <body>
 
-
-
-    <?php
+  <?php
     include('header.php');
     ?>
-
-    <div class="grid md:grid-cols-2 items-center mt-[11px] px-[24px] md:px-[132px] md:h-[746px] bg-[#94E1A6]">
+ <div class="grid md:grid-cols-2 items-center mt-[11px] px-[24px] md:px-[132px] md:h-[746px] bg-[#E6FAF1]">
         <div class="text-[40px] font-[500px] mb-[30px]">
             Welcome to <span class="text-[#0CB061] font-[700]">Global Square IT</span>- Unleashing
             Digital
@@ -113,11 +110,11 @@
         </div>
     </div>
     <!-- TRUSTED BY SECTION -->
-   <?php
+   <!-- <?php
    include("trustedby.php")
-   ?>
+   ?> -->
     <!-- Introduction section  -->
-    <div class="grid mb-[20px] gap-[30px]">
+    <div class="grid mb-[20px] mt-[20px] gap-[30px]">
         <div class="grid md:grid-cols-2 grid-cols-1 justify-center md:mx-[132px] mx-[48px]">
             <div class="md:flex md:flex-col flex flex-row justify-center " >
                 <img style="object-fit: cover;" class="w-[424px] rounded-[8px] h-[348px] " src="images/homepage.jpeg" alt="globalsquare">
@@ -126,7 +123,7 @@
                 <div class="text-[#5EBE90] text-[16px] font-[600] ">
                     Introducing
                 </div>
-                <div class="text-[52px] font-[600]">
+                <div class="md:text-[52px] text-[32px] font-[600]">
                     Global Square IT Company
                 </div>
                 <div class="text-[16px] font-[400] text-[#18181B] text-justify">
@@ -139,7 +136,7 @@
         </div>
         <div class="grid md:grid-cols-2 grid-cols-1 md:mx-[132px] mx-[48px]">
             <div class="flex flex-col gap-[24px]">
-                <div class="text-[52px] font-[600]">
+                <div class="md:text-[52px] text-[32px] font-[600]">
                     Our Vision
                 </div>
                 <div class="text-[16px] font-[400] text-[#18181B] text-justify md:w-[500px]">
@@ -148,7 +145,7 @@
                 </div>
             </div>
             <div class="flex flex-col gap-[24px]">
-                <div class="text-[52px] font-[600]">
+                <div class="md:text-[52px] text-[32px] font-[600]">
                     Our Mission
                 </div>
                 <div class="text-[16px] font-[400] text-[#18181B] text-justify">
@@ -268,6 +265,29 @@
     <!-- Why choose us end  -->
 
     <!-- Services Section -->
+<div class="flex flex-col mx-[48px] hidden ">
+    <div class="flex flex-row justify-between" >
+        <div class="flex flex-col text-[12px] text-[#667085]" >
+           <p class="text-[#090914] text-[40px]" >
+            Our Services
+           </p>
+           <div class="flex flex-row" >
+            <div>
+                  Welcome to Global Square, where innovation meets excellence. Explore our diverse services tailored to propel your business forward, driving sustainable success.
+            </div>
+            <div>
+
+            </div>
+            
+           </div>
+         
+
+        </div>
+
+    </div>
+
+</div>
+
     <div class="grid mb-[48px]">
         <div class="flex flex-col items-center gap-[12px] ">
             <div class=" text-[52px] text-center font-[600] text-[#090914]">
@@ -414,7 +434,7 @@
     <!-- services section end  -->
 
     <!-- Our team section  start  -->
-    <div class="grid md:mx-[132px] mx-[48px] mb-[60px] ">
+    <!-- <div class="grid md:mx-[132px] mx-[48px] mb-[60px] ">
         <div class="flex flex-row rounded-[20px] ">
             <div style="flex:1">
                 <div class="text-[52px]  font-[600] text-[#090914] w-[472px] ">
@@ -467,7 +487,7 @@
 
         </div>
 
-    </div>
+    </div> -->
     <!-- our team section end  -->
     <div class="md:mx-[132px] mx-[48px] mb-[60px]">
         <div id="clippath" class="mb-[50px] h-[352px] bg-[#090914] rounded-[15px]">
