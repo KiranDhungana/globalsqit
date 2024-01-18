@@ -7,6 +7,7 @@
  font-family: 'Plus Jakarta Sans', sans-serif;
   
 }
+
 .scrol::-webkit-scrollbar {
     display: none;
 }
@@ -53,8 +54,9 @@ header .header-left nav ul {
 }
 nav ul li a {
     display: block;
+    
  
-    padding: 5px 10px;
+    /* padding: 5px 10px; */
     transition: 0.2s;
 }
 nav ul li a:hover,
@@ -100,11 +102,11 @@ header .header-right .hamburger div {
         padding-left: 10px;
         transition: 0.3s;
         text-align: center;
-        z-index: -1;
+        /* z-index: -; */
     }
     header .header-left nav.active {
      
-        top: 70px;
+        top: 58px;
         background-color:#FFF ;
         height:100vh;
     }
