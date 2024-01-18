@@ -21,6 +21,14 @@
         position: relative;
         right: 125px;
     }
+    #clippath{
+         /* background-repeat: no-repeat; */
+  background-size: cover;
+        background-image:  url("images/capture.png");
+        /* object-fit: cover; */
+        border-radius: 15px;
+
+    }
 
     #child {
         position: absolute;
@@ -58,21 +66,7 @@
  position: absolute;
 left:450px;
 }
-.gototop{
-    position: fixed;
-    right: 10;
-  bottom: 0;
-  width: 100%;
-text-align: right;
 
-}
-.gototop svg{
-    float: right;
-margin-right: 30px;
-margin-bottom: 20px;
-background: #0CB061;
-border-radius: 20px;
-}
     .why {
 
         font-size: 40px;
@@ -88,14 +82,15 @@ border-radius: 20px;
 </head>
 
 <body>
-    <div class="gototop" >
-    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+     <div class="gototop" >
+    <button onclick="topFunction()" >
+   <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
 <path d="M12 19V5" stroke="#136849" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
 <path d="M5 12L12 5L19 12" stroke="#136849" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>
-    </div>
-
-  <?php
+   </button>
+      </div>
+   <?php
     include('header.php');
     ?>
  <div class="grid md:grid-cols-2 items-center mt-[11px] px-[24px] md:px-[132px] md:h-[746px] bg-[#E6FAF1]">
@@ -519,9 +514,10 @@ border-radius: 20px;
 
     </div> -->
     <!-- our team section end  -->
-    <div class="md:mx-[132px] mx-[48px] mb-[60px]">
-        <div id="clippath" class="mb-[50px] h-[352px] bg-[#090914] rounded-[15px]">
-            <div class="flex flex-row  justify-between  px-[20px] py-[20px]">
+ 
+    <div  class=" md:mx-[132px] mx-[48px] mb-[60px]">
+        <div  class="mb-[50px] h-[352px]  rounded-[15px]">
+            <div id="clippath" class="flex flex-row  justify-between  px-[20px] py-[20px]">
 
                 <div class="w-[618px] my-[40px]">
                     <div class="text-[#74C392] font-[700] text-[28px]">
@@ -612,16 +608,17 @@ border-radius: 20px;
                     </div>
                 </div>
             </div>
-
-
-
-        </div>
+         </div>
     </div>
     <!-- footer  -->
     <?php
     include("./footer.php")
         ?>
     <script>
+        function topFunction() {
+  document.body.scrollTop = 0; // For Safari
+  document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+}
     document.addEventListener('DOMContentLoaded', function() {
         const toggleButton = document.getElementById('toggleButton');
         const icon = document.getElementById('icon');

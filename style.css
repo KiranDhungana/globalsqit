@@ -13,6 +13,21 @@
 .scrol::-webkit-scrollbar {
     display: none;
 }
+.gototop{
+    position: fixed;
+    right: 10;
+  bottom: 0;
+  width: 100%;
+text-align: right;
+
+}
+.gototop svg{
+    float: right;
+margin-right: 30px;
+margin-bottom: 20px;
+background: #0CB061;
+border-radius: 20px;
+}
 
 header {
     /* height:79px; */
