@@ -572,7 +572,7 @@ left:450px;
     </div> -->
     <!-- our team section end  -->
    <div  class="items-center justify-center flex md:mx-[132px] mx-[48px] mb-[60px]">
-        <div  class="mb-[50px] md:h-[352px]  rounded-[15px]">
+        <div  class="mb-[50px] md:h-[352px] md:w-full  rounded-[15px]">
             <div id="clippath" class="flex md:flex-row flex-col  items-center justify-between  px-[20px] py-[20px]">
 
                 <div class="md:w-[618px] my-[40px]">
