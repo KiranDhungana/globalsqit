@@ -221,7 +221,9 @@ left:450px;
     <!-- Why choose us section  -->
     <div style="overflow: hidden;" class="md:h-[838px]  mb-[86px]  bg-[#1B1B1B] ">
         <div class="grid md:grid-cols-2 grid-cols-1 md:px-[132px] px-[48px] ">
-            <div class="flex flex-row gap-[20px]">
+            <img class="md:hidden block" src="images/whynew1.png" alt="homepage">
+            <div class="md:flex flex-row hidden  gap-[20px]">
+                
                 <div class="flex flex-col gap-[20px]">
                     <div>
                         <img class="h-[380px] w-[272px]" src="images/gsh1.jpeg" alt="homepageimage">
@@ -247,9 +249,9 @@ left:450px;
                 </div>
             </div>
             <!-- 2nd col -->
-            <div class="parentcircle md:w-[502px] gap-[32px] flex flex-col mb-[40px] md:mb-[0px]">
-                  <img class="circle1" style="width: 478px;height: 478px;" src="./images/why-2.png" alt="why">
-                <div class="mt-[230px] flex flex-col gap-[16px]">
+            <div class="parentcircle md:w-[502px] gap-[32px]  flex flex-col mb-[40px] md:mb-[0px]">
+                  <img class="circle1 hidden md:flex" style="width: 478px;height: 478px;" src="./images/why-2.png" alt="why">
+                <div class="md:mt-[230px] mt-[20px] flex flex-col gap-[16px]">
                   
                     <div class="why">
                         Why Choose Us?
@@ -344,14 +346,12 @@ left:450px;
                     
 
                         your business forward, driving sustainable success.
-                    
-
-                </div>
+                   </div>
             </div>
         </div>
 
 
-        <div class="md:mx-[132px] mx-[48px] md:grid grid-cols-3 flex flex-row gap-[40px]   justify-between mb-[64px] mt-[48px]">
+         <div class="md:mx-[132px] mx-[48px] md:grid grid-cols-3 flex flex-row gap-[40px]   justify-between mb-[64px] mt-[48px]">
             <div class="mainblock flex flex-col gap-[30px] items-center border-[1px] rounded-[8px] ">
                 <div class="iconnew" style="border-radius: 28px;border: 8px solid #EFF8F4;background: #D8F3E6;" >
               <svg class="h-[24px] w-[24px]" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
@@ -386,10 +386,10 @@ left:450px;
             <div class="mainblock flex flex-col gap-[30px] items-center border-[1px] rounded-[8px] ">
                 <div class="iconnew" style="border-radius: 28px;border: 8px solid #EFF8F4;background: #D8F3E6;" >
                 <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 25 25" fill="none">
-<path d="M20.0625 3.84766H4.0625C2.95793 3.84766 2.0625 4.74309 2.0625 5.84766V15.8477C2.0625 16.9522 2.95793 17.8477 4.0625 17.8477H20.0625C21.1671 17.8477 22.0625 16.9522 22.0625 15.8477V5.84766C22.0625 4.74309 21.1671 3.84766 20.0625 3.84766Z" stroke="#5EBE90" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M8.0625 21.8477H16.0625" stroke="#5EBE90" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M12.0625 17.8477V21.8477" stroke="#5EBE90" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-</svg>
+     <path d="M20.0625 3.84766H4.0625C2.95793 3.84766 2.0625 4.74309 2.0625 5.84766V15.8477C2.0625 16.9522 2.95793 17.8477 4.0625 17.8477H20.0625C21.1671 17.8477 22.0625 16.9522 22.0625 15.8477V5.84766C22.0625 4.74309 21.1671 3.84766 20.0625 3.84766Z" stroke="#5EBE90" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+       <path d="M8.0625 21.8477H16.0625" stroke="#5EBE90" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+      <path d="M12.0625 17.8477V21.8477" stroke="#5EBE90" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+      </svg>
                 </div>
                
                 <div class="text-[20px] text-[#101828] mt-[50px] px-[10px] text-center font-[500]">
@@ -416,7 +416,7 @@ left:450px;
 
                 </div>
             </div>
-         </div>
+         </div> 
 
         <div class="mx-[50px]  flex md:flex-row flex-col  justify-center gap-[35px] ">
         <div class="mainblock flex flex-col gap-[30px] items-center border-[1px] rounded-[8px] ">
