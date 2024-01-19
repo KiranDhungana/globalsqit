@@ -58,7 +58,7 @@
                 </a>
             </div>
             <a href="./apply.php" >
-                <div class="bg-black text-center rounded-[2px]">
+                <div class="bg-black text-center rounded-[4px]">
                 <p class="py-[12px] text-[18px] font-[600px] px-[24px] text-white ">
                     Contact Us
                 </p>
