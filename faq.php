@@ -81,12 +81,12 @@ p {
     <?php
 include('header.php')
     ?>
-<div class="grid md:mx-[132px] mx-[24px]  ">
-    <div class="flex my-[48px] flex-col  gap-[12px] ">
+<div class="grid md:mx-[132px]   ">
+    <div class="flex py-[48px] px-[24px] flex-col  bg-[#F3FAF7] md:bg-white gap-[12px] ">
         <div class=" text-[52px] text-center font-[600] text-[#090914]">
             FAQs
         </div>
-        <div class="text-[#667085]   text-center  text-[20px] font-[400]">
+        <div class="md:text-[#667085] text-[#A1A1AA]   text-center  md:text-[20px] text-[14px] font-[400]">
             <div>
                 What people frequently ask about us?
 
@@ -95,7 +95,7 @@ include('header.php')
     </div>
   
 
-    <div class="flex flex-col">
+    <div class="flex flex-col mx-[24px] md:mx-[0px] md:mt-[0px] mt-[32px]">
         <div class="flex flex-row justify-between">
             <div class="wrapper">
                 <div class="buttonWrapper">
