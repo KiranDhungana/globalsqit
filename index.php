@@ -351,9 +351,9 @@ left:450px;
         </div>
 
 
-         <div class="md:mx-[132px] mx-[48px] md:grid grid-cols-3 flex flex-row  pt-[20px] gap-[40px] overflow-x-auto md:overflow-x-hidden   justify-between mb-[64px] mt-[48px]">
-            <div class="mainblock flex flex-col gap-[30px] items-center border-[1px] rounded-[8px] ">
-                <div class="iconnew" style="border-radius: 28px;border: 8px solid #EFF8F4;background: #D8F3E6;" >
+         <div class="md:mx-[132px] mx-[48px] md:grid grid-cols-3 flex flex-row   pt-[20px] gap-[40px] overflow-x-auto md:overflow-x-hidden   justify-between mb-[64px] mt-[48px]">
+            <div  class="mainblock flex flex-col gap-[30px] items-center border-[1px]  rounded-[8px] ">
+                <div class="iconnew " style="border-radius: 28px;border: 8px solid #EFF8F4;background: #D8F3E6;" >
               <svg class="h-[24px] w-[24px]" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                     viewBox="0 0 24 24" fill="none">
                     <g clip-path="url(#clip0_476_6882)">
@@ -375,7 +375,7 @@ left:450px;
                 </svg>
                 </div>
                
-                <div class="text-[20px] text-[#101828] mt-[50px] px-[10px] text-center font-[500]">
+                <div class="text-[20px] text-[#101828] mt-[50px] md:px-[10px] text-center font-[500]">
                     Custom Software Development
                     <div class="text-[#667085] pb-[24px] font-[400] text-[16px]  w-auto">
                         Tailored solutions to meet your specific business requirements.

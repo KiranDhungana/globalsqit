@@ -17,7 +17,7 @@
                     <a href="">Our Services</a>
                 </li>
                 <li>
-                    <a href="facebook.com">FAQs</a>
+                    <a href="./faq.php">FAQs</a>
                 </li>
 
             </ul>
