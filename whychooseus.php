@@ -20,7 +20,7 @@ include('header.php')
     ?>
 
 <!-- Why choose us  -->
-<div class="text-justify flex flex-col mx-[0px]  md:px-[132px] my-[48px] items-center justify-center bg-[#F3FAF7]">
+<div class="text-justify flex flex-col mx-[0px] pb-[24px] md:px-[132px] my-[48px] items-center justify-center bg-[#F3FAF7]">
     <div class="text-[#090914] font-[600] md:text-[52px] text-[40px]">
         Why choose us?
     </div>
@@ -32,7 +32,7 @@ include('header.php')
 </div>
 <!-- Why choose us main -->
 <div class="flex flex-col gap-[64px] mt-[24px] mb-[72px]">
-    <div class="flex md:flex-row flex-col md:px-[132px] px-[24px] gap-[32px]">
+    <div class="flex md:flex-row flex-col md:px-[132px] px-[24px] gap-[32px] ">
         <div>
             <img class="h-[226px] rounded-[16px] w-[276px]" src="images/whyc1.jpeg" alt="">
         </div>
@@ -47,8 +47,9 @@ include('header.php')
         </div>
     </div>
 
-    <div class="flex md:flex-row flex-col md:pr-[132px] px-[24px] md:pl-[440px] md:px-[0px] gap-[32px]">
-    <div>
+    <div class="flex md:flex-row flex-col  px-[24px] md:mx-[132px]  md:px-[0px] gap-[32px] justify-center md:justify-end">
+        <div class="flex md:flex-row flex-col" >
+<div>
             <img class="h-[226px] rounded-[16px] w-[276px] md:hidden block" src="images/why2.jpeg" alt="">
         </div>
         <div class="flex flex-col text-[32px] md:text-[40px] gap-[16px] font-[600]">
@@ -63,7 +64,10 @@ include('header.php')
         <div>
             <img class="h-[226px] rounded-[16px] w-[276px] hidden md:block" src="images/why2.jpeg" alt="">
         </div>
+        </div>
+    
     </div>
+
     <div class="flex md:flex-row flex-col px-[24px] md:px-[132px]  gap-[32px]">
         <div>
             <img class="h-[226px] rounded-[16px] w-[276px]" src="images/why3.jpeg" alt="">
@@ -78,8 +82,10 @@ include('header.php')
             </span>
         </div>
     </div>
-    <div class="flex md:flex-row flex-col  md:pr-[132px] md:pl-[440px] pr-[24px] pl-[24px] gap-[32px]">
-        <div class="flex flex-col text-[32px] md:text-[40px] gap-[16px] font-[600]">
+
+    <div class="flex md:flex-row flex-col  md:pr-[132px] md:pl-[440px] pr-[24px] pl-[24px] gap-[32px] justify-center md:justify-end">
+        <div class="flex md:flex-row flex-col" >
+ <div class="flex flex-col text-[32px] md:text-[40px] gap-[16px] font-[600]">
             <p style="line-height: 62px;">Transparent Communication</p>
             <span style="line-height: 26px;" class="md:text-[16px] text-[14px] text-[#18181B] font-[400] md:w-[582px] w-auto">
                 Communication is the cornerstone of successful collaboration. We maintain open and transparent
@@ -91,6 +97,8 @@ include('header.php')
         <div>
             <img class="h-[226px] rounded-[16px] w-[276px]" src="images/why4.jpeg" alt="">
         </div>
+        </div>
+       
     </div>
 
 
