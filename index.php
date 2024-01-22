@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Responsive Navbar using HTML, CSS and Javascript</title>
+    <title>Globalsquareit</title>
     <link rel="stylesheet" href="style.css">
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
@@ -670,41 +670,8 @@ left:450px;
     <?php
     include("./footer.php")
         ?>
-    <script>
-        function topFunction() {
-  document.body.scrollTop = 0; // For Safari
-  document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
-}
-    document.addEventListener('DOMContentLoaded', function() {
-        const toggleButton = document.getElementById('toggleButton');
-        const icon = document.getElementById('icon');
-        let isToggled = false;
+<script src="globaljs.js"></script>
 
-        toggleButton.addEventListener('click', function() {
-            isToggled = !isToggled;
-            updateIcon();
-        });
-
-        function updateIcon() {
-            if (isToggled) {
-                // Change the SVG path or attributes for the "on" state
-                icon.innerHTML =
-                    '<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"> <path d="M18 6L6 18" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/> <path d="M6 6L18 18" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/> </svg>';
-            } else {
-                // Change the SVG path or attributes for the "off" state
-
-                icon.innerHTML =
-                    '<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"> <path d="M3 11H21" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/> <path d="M3 5.375H21" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/> <path d="M3 16.625H21" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/> </svg>';
-            }
-        }
-    });
-
-    hamburger = document.querySelector(".hamburger");
-    nav = document.querySelector("nav");
-    hamburger.onclick = function() {
-        nav.classList.toggle("active");
-    }
-    </script>
 </body>
 
 </html>

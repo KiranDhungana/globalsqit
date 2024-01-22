@@ -8,13 +8,13 @@
         <nav>
             <ul class="flex gap-[24px] flex-col leading-[24px] text-[16px] font-[300px] text-[#3D3D3D] ">
                 <li>
-                    <a href="">Introduction</a>
+                    <a href="./">Introduction</a>
                 </li>
                 <li>
-                    <a href=""> Why Choose us ?</a>
+                    <a href="./whychooseus.php"> Why Choose us ?</a>
                 </li>
                 <li>
-                    <a href="">Our Services</a>
+                    <a href="./ourservice.php">Our Services</a>
                 </li>
                 <li>
                     <a href="./faq.php">FAQs</a>

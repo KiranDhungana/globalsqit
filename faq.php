@@ -352,7 +352,7 @@ include('header.php')
 <?php
 include('footer.php');
 ?>
-
+<script src="globaljs.js"></script>
 <script>
 const tabs = document.querySelector(".wrapper");
 const tabButton = document.querySelectorAll(".tab-button");
