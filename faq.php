@@ -349,9 +349,11 @@ include('header.php')
 </div>
     </div>
 </div>
+
 <?php
 include('footer.php');
 ?>
+
 <script src="globaljs.js"></script>
 <script>
 const tabs = document.querySelector(".wrapper");
