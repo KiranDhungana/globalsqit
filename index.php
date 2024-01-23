@@ -167,7 +167,7 @@ left:450px;
             </div>
         </div>
         <div class="bg-[#CBD5E1] h-[1px] md:hidden mx-[48px]" >
-</div>
+        </div>
         <div class="grid md:grid-cols-2 grid-cols-1 md:mx-[132px] mx-[48px]">
             <div class="flex flex-col gap-[24px]">
                 <div class="md:text-[52px] text-[32px] font-[600]  ">
@@ -314,7 +314,7 @@ left:450px;
     
     <div class="grid mb-[48px]">
         <div class="flex flex-col items-center gap-[12px] ">
-            <div  class="hidden md:flex" >
+            <div  class="hidden md:flex flex-col" >
            <div class=" md:text-[52px] text-[40px] text-center font-[600] text-[#090914]">
                 OUR SERVICES
             </div>
