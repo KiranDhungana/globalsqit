@@ -1,3 +1,17 @@
+
+ const buttonRight = document.getElementById('slideRight');
+    const buttonLeft = document.getElementById('slideLeft');
+    console.log(buttonRight)
+
+    buttonRight.onclick = function () {
+        console.log("clicked")
+      document.getElementById('container').scrollLeft += 300;
+    };
+    buttonLeft.onclick = function () {
+      document.getElementById('container').scrollLeft -= 300;
+    };
+
+
 function topFunction() {
     document.body.scrollTop = 0; // For Safari
     document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera

@@ -310,48 +310,68 @@ left:450px;
     <!-- Why choose us end  -->
 
     <!-- Services Section -->
-<div class="flex flex-col mx-[48px] hidden ">
-    <div class="flex flex-row justify-between" >
-        <div class="flex flex-col text-[12px] text-[#667085]" >
-           <p class="text-[#090914] text-[40px]" >
-            Our Services
-           </p>
-           <div class="flex flex-row" >
-            <div>
-                  Welcome to Global Square, where innovation meets excellence. Explore our diverse services tailored to propel your business forward, driving sustainable success.
-            </div>
-            <div>
 
-            </div>
-            
-           </div>
-         
-
-        </div>
-
-    </div>
-
-</div>
-
+    
     <div class="grid mb-[48px]">
         <div class="flex flex-col items-center gap-[12px] ">
-            <div class=" text-[52px] text-center font-[600] text-[#090914]">
+            <div  class="hidden md:flex" >
+           <div class=" md:text-[52px] text-[40px] text-center font-[600] text-[#090914]">
                 OUR SERVICES
             </div>
-            <div class="text-[#667085] text-center md:mx-[192px] mx-[48px]   flex md:flex-row flex-col justify-center text-[20px] font-[400]">
+            <div class="text-[#667085] text-center md:mx-[192px] mx-[48px]   flex md:flex-row flex-col justify-center text-[14px] md:text-[20px] font-[400]">
                 <div>
                     Welcome to Global Square, where innovation meets excellence. Explore our diverse services tailored
                     to
                     propel your business forward, driving sustainable success.
-                    
-
-                        your business forward, driving sustainable success.
                    </div>
             </div>
+            </div>
+            <!-- mobile view -->
+         <div  class="flex flex-row gap-[8px] items-center mx-[24px]  md:hidden " >
+            <div class="flex flex-col" >
+                <div>
+                    <div class=" md:text-[52px] text-[35px] text-center font-[600] text-[#090914]">
+                OUR SERVICES
+            </div>
+            <div class="text-[#667085] text-center md:mx-[192px]  text-justify   flex md:flex-row flex-col justify-center text-[14px] md:text-[20px] font-[400]">
+                <div>
+                    Welcome to Global Square, where innovation meets excellence. Explore our diverse services tailored
+                    to
+                    propel your business forward, driving sustainable success.
+                   </div>
+            </div>
+                </div>
+             </div>
+                <div class="flex flex-row gap-[8px] pt-[56px]" >
+                     <button id="slideLeft" type="button">
+                           <div class="rounded-full border-[1px]" >
+                        <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14" fill="none">
+                        <path d="M8.66683 10.334L5.3335 7.00069L8.66683 3.66736" stroke="#A1A1AA" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </div>
+                     </button>
+    <button id="slideRight" type="button">
+             <div class="rounded-full border-[1px]" >
+             <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14" fill="none">
+<path d="M5.3335 10.334L8.66683 7.00069L5.3335 3.66736" stroke="#5EBE90" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+                    </div>
+
+    </button>
+                 
+                     
+
+                </div>
+              
+         
+        
+            </div>
+            
+         
         </div>
 
 
-         <div  class="md:mx-[132px] mx-[48px] md:grid grid-cols-3 flex flex-row   pt-[20px] gap-[40px] overflow-x-auto md:overflow-x-hidden   justify-between mb-[64px] mt-[48px]">
+         <div id="container"  class="scrol md:mx-[132px] mx-[24px] md:grid grid-cols-3 flex flex-row   pt-[20px] gap-[40px] overflow-x-auto md:overflow-x-hidden   justify-between mb-[64px] mt-[48px]">
             <div  class="mainblock flex flex-col gap-[30px] items-center border-[1px]  rounded-[8px] ">
                 <div class="iconnew " style="border-radius: 28px;border: 8px solid #EFF8F4;background: #D8F3E6;" >
               <svg class="h-[24px] w-[24px]" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
