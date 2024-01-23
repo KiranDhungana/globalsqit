@@ -351,7 +351,7 @@ left:450px;
         </div>
 
 
-         <div class="md:mx-[132px] mx-[48px] md:grid grid-cols-3 flex flex-row   pt-[20px] gap-[40px] overflow-x-auto md:overflow-x-hidden   justify-between mb-[64px] mt-[48px]">
+         <div  class="md:mx-[132px] mx-[48px] md:grid grid-cols-3 flex flex-row   pt-[20px] gap-[40px] overflow-x-auto md:overflow-x-hidden   justify-between mb-[64px] mt-[48px]">
             <div  class="mainblock flex flex-col gap-[30px] items-center border-[1px]  rounded-[8px] ">
                 <div class="iconnew " style="border-radius: 28px;border: 8px solid #EFF8F4;background: #D8F3E6;" >
               <svg class="h-[24px] w-[24px]" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
@@ -375,7 +375,7 @@ left:450px;
                 </svg>
                 </div>
                
-                <div class="text-[20px] text-[#101828] mt-[50px] md:px-[10px] text-center font-[500]">
+                <div class="text-[20px] text-[#101828] mt-[50px] w-[273px] md:w-auto md:px-[10px] text-center font-[500]">
                     Custom Software Development
                     <div class="text-[#667085] pb-[24px] font-[400] text-[16px]  w-auto">
                         Tailored solutions to meet your specific business requirements.
@@ -383,7 +383,7 @@ left:450px;
 
                 </div>
             </div>
-            <div class="mainblock flex flex-col gap-[30px] items-center border-[1px] rounded-[8px] ">
+            <div  class="mainblock flex md:h-auto h-[200px] flex-col gap-[30px] items-center border-[1px] rounded-[8px] ">
                 <div class="iconnew" style="border-radius: 28px;border: 8px solid #EFF8F4;background: #D8F3E6;" >
                 <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 25 25" fill="none">
              <path d="M20.0625 3.84766H4.0625C2.95793 3.84766 2.0625 4.74309 2.0625 5.84766V15.8477C2.0625 16.9522 2.95793 17.8477 4.0625 17.8477H20.0625C21.1671 17.8477 22.0625 16.9522 22.0625 15.8477V5.84766C22.0625 4.74309 21.1671 3.84766 20.0625 3.84766Z" stroke="#5EBE90" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
@@ -392,7 +392,7 @@ left:450px;
                 </svg>
                 </div>
                
-                <div class="text-[20px] text-[#101828] mt-[50px] px-[10px] text-center font-[500]">
+                <div class="text-[20px]  w-[273px] md:w-auto text-[#101828] mt-[50px] px-[10px] text-center font-[500]">
                 Web Application Development
                     <div class="text-[#667085] pb-[24px] font-[400] text-[16px]  w-auto">
                     Responsive and scalable web applications for seamless user experiences.
@@ -400,7 +400,7 @@ left:450px;
 
                 </div>
             </div>
-            <div class="mainblock flex flex-col gap-[30px] items-center border-[1px] rounded-[8px] ">
+            <div  class="mainblock flex flex-col gap-[30px] md:h-auto h-[200px] items-center border-[1px] rounded-[8px] ">
                 <div class="iconnew" style="border-radius: 28px;border: 8px solid #EFF8F4;background: #D8F3E6;" >
                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
             <path d="M17 2H7C5.89543 2 5 2.89543 5 4V20C5 21.1046 5.89543 22 7 22H17C18.1046 22 19 21.1046 19 20V4C19 2.89543 18.1046 2 17 2Z" stroke="#5EBE90" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
@@ -408,7 +408,7 @@ left:450px;
           </svg>
                 </div>
                
-                <div class="text-[20px] text-[#101828] mt-[50px] px-[10px] text-center font-[500]">
+                <div class="text-[20px] text-[#101828]  w-[273px] md:w-auto mt-[50px] px-[10px] text-center font-[500]">
                 Mobile App Development
                     <div class="text-[#667085]  pb-[24px] font-[400] text-[16px]  w-auto">
                     Native and cross-platform mobile apps that engage and captivate users.
@@ -416,7 +416,7 @@ left:450px;
 
                 </div>
             </div>
-             <div class="mainblock flex flex-col gap-[30px] md:hidden items-center border-[1px] rounded-[8px] ">
+             <div  class="mainblock flex flex-col md:h-auto h-[200px] gap-[30px] md:hidden items-center border-[1px] rounded-[8px] ">
                 <div class="iconnew" style="border-radius: 28px;border: 8px solid #EFF8F4;background: #D8F3E6;" >
                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="20" viewBox="0 0 24 20" fill="none">
   <g clip-path="url(#clip0_476_6911)">
@@ -430,14 +430,14 @@ left:450px;
 </svg>
                 </div>
                
-                <div class="text-[20px] text-[#101828] mt-[50px] px-[10px] text-center font-[500]">
+                <div class="text-[20px] text-[#101828] w-[273px] md:w-auto mt-[50px] px-[10px] text-center font-[500]">
                 UI/UX Design
                     <div class="text-[#667085] pb-[24px] font-[400] text-[16px]  w-auto">
                     Intuitive and visually appealing designs that enhance user satisfaction.                    </div>
 
                 </div>
             </div>
-            <div class="mainblock flex flex-col gap-[30px] md:hidden items-center border-[1px] rounded-[8px] ">
+            <div  class="mainblock flex flex-col gap-[30px] md:h-auto h-[200px] md:hidden items-center border-[1px] rounded-[8px] ">
                 <div class="iconnew" style="border-radius: 28px;border: 8px solid #EFF8F4;background: #D8F3E6;" >
                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
 <g clip-path="url(#clip0_476_6920)">
@@ -451,7 +451,7 @@ left:450px;
 </svg>
                 </div>
                
-                <div class="text-[20px] text-[#101828] mt-[50px] px-[10px] text-center font-[500]">
+                <div class="text-[20px] text-[#101828] w-[273px] md:w-auto mt-[50px] px-[10px] text-center font-[500]">
                 Quality Assurance
                     <div class="text-[#667085] pb-[24px] font-[400] text-[16px]  w-auto">
                     Rigorous testing processes to ensure the reliability and performance of your software.
@@ -465,7 +465,7 @@ left:450px;
          </div> 
 
         <div class="mx-[50px]  flex md:flex-row flex-col  justify-center gap-[35px] ">
-        <div class="mainblock hidden md:flex flex-col gap-[30px] items-center border-[1px] rounded-[8px] ">
+        <div   class="mainblock hidden md:flex md:h-auto h-[200px] flex-col gap-[30px] items-center border-[1px] rounded-[8px] ">
                 <div class="iconnew" style="border-radius: 28px;border: 8px solid #EFF8F4;background: #D8F3E6;" >
                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="20" viewBox="0 0 24 20" fill="none">
   <g clip-path="url(#clip0_476_6911)">
@@ -487,7 +487,7 @@ left:450px;
 
                 </div>
             </div>
-            <div class="mainblock hidden md:flex flex-col gap-[30px] items-center border-[1px] rounded-[8px] ">
+            <div class="mainblock hidden md:flex flex-col md:h-auto h-[200px] gap-[30px] items-center border-[1px] rounded-[8px] ">
                 <div class="iconnew" style="border-radius: 28px;border: 8px solid #EFF8F4;background: #D8F3E6;" >
                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
 <g clip-path="url(#clip0_476_6920)">
