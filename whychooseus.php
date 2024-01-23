@@ -34,7 +34,7 @@ include('header.php')
 <div class="flex flex-col gap-[64px] mt-[24px] mb-[72px]">
     <div class="flex md:flex-row flex-col items-center md:px-[132px] px-[24px] gap-[32px] ">
         <div>
-            <img class="h-[226px] rounded-[16px] w-[276px]" src="images/whyc1.jpeg" alt="">
+            <img class="h-[226px] rounded-[16px] w-[100vw] md:w-[276px]" src="images/whyc1.jpeg" alt="">
         </div>
         <div class="flex flex-col text-[32px] md:text-[40px] gap-[16px] font-[600]">
             <p class="leading-[42px] md:leading-[62px]"  >Innovation at Its Core</p>
@@ -50,7 +50,7 @@ include('header.php')
 <div class="flex md:flex-row flex-col items-center  px-[24px] md:mx-[132px]  md:px-[0px] gap-[32px] justify-center md:justify-end">
         <div class="flex md:flex-row flex-col items-center" >
 <div>
-            <img class="h-[226px] rounded-[16px] w-[276px] md:hidden block" src="images/why2.jpeg" alt="">
+            <img class="h-[226px] rounded-[16px] w-[100vw] md:w-[276px] md:hidden block" src="images/why2.jpeg" alt="">
         </div>
         <div class="flex flex-col text-[32px] md:text-[40px] gap-[16px] font-[600]">
             <p class="leading-[42px] md:leading-[62px]" >Client-Centric Approach</p>
@@ -62,7 +62,7 @@ include('header.php')
             </span>
         </div>
         <div>
-            <img class="h-[226px] rounded-[16px] w-[276px] hidden md:block" src="images/why2.jpeg" alt="">
+            <img class="h-[226px] rounded-[16px] w-[100vw] md:w-[276px] hidden md:block" src="images/why2.jpeg" alt="">
         </div>
         </div>
     
@@ -70,7 +70,7 @@ include('header.php')
 
     <div class="flex md:flex-row items-center flex-col px-[24px] md:px-[132px]  gap-[32px]">
         <div>
-            <img class="h-[226px] rounded-[16px] w-[276px]" src="images/why3.jpeg" alt="">
+            <img class="h-[226px] rounded-[16px] w-[100vw] md:w-[276px]" src="images/why3.jpeg" alt="">
         </div>
         <div class="flex flex-col text-[32px] md:text-[40px] gap-[16px] font-[600]">
             <p class="leading-[42px] md:leading-[62px]" >Agile Development Methodology</p>
@@ -95,7 +95,7 @@ include('header.php')
             </span>
         </div>
         <div class="flex flex-col items-center" >
-            <img class="h-[226px] rounded-[16px] w-[276px]" src="images/why4.jpeg" alt="">
+            <img class="h-[226px] rounded-[16px] w-[100vw] md:w-[276px]" src="images/why4.jpeg" alt="">
         </div>
         </div>
        
