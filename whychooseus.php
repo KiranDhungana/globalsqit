@@ -37,7 +37,7 @@ include('header.php')
             <img class="h-[226px] rounded-[16px] w-[276px]" src="images/whyc1.jpeg" alt="">
         </div>
         <div class="flex flex-col text-[32px] md:text-[40px] gap-[16px] font-[600]">
-            <p  style="line-height: 62px;">Innovation at Its Core</p>
+            <p class="leading-[42px] md:leading-[62px]"  >Innovation at Its Core</p>
             <span style="line-height: 26px;" class="md:text-[16px] text-[14px] text-justify text-[#18181B] font-[400] md:w-[582px]">
                 Your success is our priority. We believe in building strong, collaborative relationships with our
                 clients. By understanding your unique goals and challenges, we tailor our solutions to ensure they align
@@ -53,8 +53,8 @@ include('header.php')
             <img class="h-[226px] rounded-[16px] w-[276px] md:hidden block" src="images/why2.jpeg" alt="">
         </div>
         <div class="flex flex-col text-[32px] md:text-[40px] gap-[16px] font-[600]">
-            <p style="line-height: 62px;">Client-Centric Approach</p>
-            <span style="line-height: 26px;" class="md:text-[16px] text-[14px] text-justify text-[#18181B] font-[400] md:w-[582px] w-auto">
+            <p class="leading-[42px] md:leading-[62px]" >Client-Centric Approach</p>
+            <span style="line-height: 26px;" class="md:text-[16px] pr-[0px] md:pr-[32px] text-[14px] text-justify text-[#18181B] font-[400] md:w-[582px] w-auto">
                 Your success is our priority. We believe in building strong, collaborative relationships with our
                 clients. By understanding your unique goals and challenges, we tailor our solutions to ensure they align
                 perfectly with your business objectives.
@@ -73,7 +73,7 @@ include('header.php')
             <img class="h-[226px] rounded-[16px] w-[276px]" src="images/why3.jpeg" alt="">
         </div>
         <div class="flex flex-col text-[32px] md:text-[40px] gap-[16px] font-[600]">
-            <p style="line-height: 62px;">Agile Development Methodology</p>
+            <p class="leading-[42px] md:leading-[62px]" >Agile Development Methodology</p>
             <span style="line-height: 26px;" class="md:text-[16px] text-[14px] text-justify text-[#18181B] font-[400] md:w-[582px] w-auto">
                 We follow an agile development approach, allowing for flexibility, adaptability, and transparency
                 throughout the development process. This ensures that your project is delivered on time and within
@@ -86,8 +86,8 @@ include('header.php')
     <div class="flex md:flex-row flex-col  md:pr-[132px] md:pl-[440px] pr-[24px] pl-[24px] gap-[32px] justify-center md:justify-end">
         <div class="flex md:flex-row flex-col" >
       <div class="flex flex-col text-[32px] md:text-[40px] gap-[16px] font-[600]">
-            <p style="line-height: 62px;">Transparent Communication</p>
-        <span style="line-height: 26px;" class="md:text-[16px] text-[14px] text-justify text-[#18181B] font-[400] md:w-[582px] w-auto">
+            <p class="leading-[42px] md:leading-[62px]" >Transparent Communication</p>
+        <span style="line-height: 26px;" class="md:text-[16px] pr-[0px] md:pr-[32px] text-[14px] text-justify text-[#18181B] font-[400] md:w-[582px] w-auto">
                 Communication is the cornerstone of successful collaboration. We maintain open and transparent
                 communication channels, keeping you informed at every stage of the development process. Your feedback is
                 not just welcomed; it is integral to our iterative approach.
